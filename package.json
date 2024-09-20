@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng1",
     "start": "ng1 serve --port 4201",
-    "build": "ng1 build --output-path docs",
+    "build": "ng1 build --output-path docs --base-href https://thienhoanguit.github.io/",
     "deploy": "ng1 deploy",
     "watch": "ng1 build --watch --configuration development",
     "test": "ng1 test"
