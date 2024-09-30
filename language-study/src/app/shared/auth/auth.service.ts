@@ -6,6 +6,7 @@ import { LoginResponse } from './login-response.model';
 import { Database, get, ref, set } from '@angular/fire/database';
 import { Router } from '@angular/router';
 import { FirebaseDbService } from '../firebase-db/firebase-db.service';
+import { GoogleAuthProvider, getAuth, signOut } from 'firebase/auth';
 
 @Injectable({
   providedIn: 'root',
@@ -63,6 +64,8 @@ export class AuthService {
   }
 
   public logout() {
+    const provider = new GoogleAuthProvider();
+		signOut(getAuth());
     this._user.next(void 0);
     this._credential.next(void 0);
     localStorage.removeItem('user');
