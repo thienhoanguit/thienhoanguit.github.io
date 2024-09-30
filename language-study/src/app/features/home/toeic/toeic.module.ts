@@ -7,7 +7,8 @@ import { ToeicRoutingModule } from './toeic.routing.module';
 import { AccordionModule } from 'primeng/accordion';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DividerModule } from 'primeng/divider';
-const PRIMENG_MODULES = [AccordionModule, RadioButtonModule, DividerModule ];
+import { ButtonModule } from 'primeng/button';
+const PRIMENG_MODULES = [AccordionModule, RadioButtonModule, DividerModule, ButtonModule ];
 
 @NgModule({
   declarations: [ToeicComponent],
