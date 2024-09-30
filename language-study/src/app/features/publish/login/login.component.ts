@@ -64,13 +64,4 @@ export class LoginComponent {
     		const credential = GoogleAuthProvider.credentialFromError(error);
   		});
 	  }
-	public test() {
-		this.authService.test({
-			photoURL: '',
-			email: 'abc',
-			displayName: 'a',
-			isActive: false,
-			role: ['']
-		})
-	}
 }

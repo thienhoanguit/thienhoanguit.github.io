@@ -62,10 +62,6 @@ export class AuthService {
 
   }
 
-  public test(user: User) {
-    this._firebaseDbService.addData(this.dbPath, user);
-  }
-
   public logout() {
     this._user.next(void 0);
     this._credential.next(void 0);
