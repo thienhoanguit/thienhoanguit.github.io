@@ -1,17 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>My Angular App</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script>
-    // Redirect to /browser immediately
-    window.location.href = '/ls';
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Redirect</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+    </style>
+    <script>
+        // Bộ đếm bắt đầu từ 5
+        let countdown = 5;
+
+        function startCountdown() {
+            const counterElement = document.getElementById('counter');
+            
+            // Cập nhật nội dung ban đầu
+            counterElement.innerText = countdown;
+
+            // Thiết lập bộ đếm lặp lại mỗi giây
+            const interval = setInterval(() => {
+                countdown--;  // Giảm bộ đếm
+                counterElement.innerText = countdown;  // Cập nhật hiển thị
+
+                // Khi bộ đếm bằng 0 thì chuyển hướng đến liên kết /ls
+                if (countdown === 0) {
+                    clearInterval(interval);  // Dừng bộ đếm
+                    window.location.href = '/ls';  // Chuyển hướng
+                }
+            }, 1000);
+        }
+
+        // Bắt đầu đếm ngược khi trang được tải
+        window.onload = startCountdown;
+    </script>
 </head>
 <body>
-  <app-root></app-root>
+    <h1>Redirecting in <span id="counter">5</span> seconds...</h1>
 </body>
 </html>
