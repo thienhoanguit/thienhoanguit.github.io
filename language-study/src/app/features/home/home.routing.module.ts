@@ -14,12 +14,8 @@ const routes: Routes = [
 			{
 				path: 'data-hub',
 				loadChildren: () => import('./data-crud/data-crud.module').then((m) => m.DataCrudModule),
-			},
-			{
-				path: '',
-				pathMatch: 'full',
-				redirectTo: 'toeic'
 			}
+			
 		]
 	}];
 

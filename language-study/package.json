@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --aot --output-hashing=all --base-href /ls/ --deploy-url /ls/",
+    "build": "ng build --aot --output-hashing=all --base-href / --deploy-url /",
     "watch": "ng build --watch --configuration development",
     "commit": "git add . && git commit -m \"Deploying build\"",
     "push": "git push origin main",

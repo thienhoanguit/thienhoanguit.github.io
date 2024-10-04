@@ -17,6 +17,11 @@ export class HomeComponent {
 	ngOnInit() {
 		this.items = [
 			{
+				label: 'Home',
+				icon: 'pi pi-home',
+				routerLink: '/'
+			},
+			{
 				label: 'Toeic',
 				icon: 'pi pi-home',
 				routerLink: '/toeic'
