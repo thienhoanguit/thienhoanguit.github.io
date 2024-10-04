@@ -10,35 +10,35 @@
                 Your browser does not support the audio tag.
             </audio>
 
-            <form *ngIf="!data[unit.Unit - 1].showResults" class="flex flex-column mb-2">
+            <form *ngIf="!practiceData[unit.Unit - 1].showResults" class="flex flex-column mb-2">
                 <div *ngFor="let quiz of unit.Part2.Quiz; let i = index" class="flex justify-content-between">
                     <span>{{ i + 1 }}.</span> <!-- Hiển thị số thứ tự câu hỏi -->
                     <label>
-                        <input type="radio" [(ngModel)]="data[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[0]"
+                        <input type="radio" [(ngModel)]="practiceData[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[0]"
                             name="question{{i}}" />
                         A
                     </label>
                     <label>
-                        <input type="radio" [(ngModel)]="data[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[1]"
+                        <input type="radio" [(ngModel)]="practiceData[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[1]"
                             name="question{{i}}" />
                         B
                     </label>
                     <label>
-                        <input type="radio" [(ngModel)]="data[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[2]"
+                        <input type="radio" [(ngModel)]="practiceData[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[2]"
                             name="question{{i}}" />
                         C
                     </label>
                     <br>
                 </div>
             </form>
-            <div *ngIf="data[unit.Unit - 1].showResults" class="mb-2">
+            <div *ngIf="practiceData[unit.Unit - 1].showResults" class="mb-2">
                 <div *ngFor="let quiz of unit.Part2.Quiz; let i = index">
                     <p>{{ i + 1 }}. {{ quiz.Question }}</p>
                     <p>
                         <span *ngFor="let answer of quiz.Answers; let j = index">
                             <span [ngStyle]="{
-                              'color': data[unit.Unit - 1].userAnswers[i] === quiz.CorrectAnswer && answer === quiz.CorrectAnswer ? 'green' : 
-                                    data[unit.Unit - 1].userAnswers[i] === answer && answer !== quiz.CorrectAnswer ? 'red' : 
+                              'color': practiceData[unit.Unit - 1].userAnswers[i] === quiz.CorrectAnswer && answer === quiz.CorrectAnswer ? 'green' : 
+                                    practiceData[unit.Unit - 1].userAnswers[i] === answer && answer !== quiz.CorrectAnswer ? 'red' : 
                                         answer === quiz.CorrectAnswer ? 'blue' : 'black'
                               }">
                               {{ ['A', 'B', 'C'][j] }}. {{ answer }}
@@ -47,7 +47,7 @@
                         </span>
                     </p>
                 </div>
-                <h3>Tổng điểm của bạn: {{ data[unit.Unit - 1].totalScore }}/{{ unit.Part2.Quiz.length * 2 }}</h3>
+                <h3>Tổng điểm của bạn: {{ practiceData[unit.Unit - 1].totalScore }}/{{ unit.Part2.Quiz.length * 2 }}</h3>
             </div>
             <p-button label="Kiểm tra"(onClick)="checkAnswers(unit)" class="mr-2" />
             <p-button label="Làm lại"(onClick)="resetQuiz(unit)" severity="secondary"  />

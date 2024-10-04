@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class TelegramService {
 
   private apiUrl: string = 'https://api.telegram.org/bot';  // URL API Telegram
-  private botToken: string = '5903343353:AAFlKNhbik9Uddozbzhg4xzo6s2fNioTcHM';  // Thay bằng API Token của bạn
+  private botToken: string = '';  // Thay bằng API Token của bạn
   private chatId: string = 'CHAT_ID';  // ID cuộc trò chuyện Telegram mà bạn muốn gửi tin nhắn đến
 
   constructor(private http: HttpClient) { }
