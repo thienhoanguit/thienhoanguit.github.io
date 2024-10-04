@@ -1,77 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Redirect</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Rewrite</title>
+  <script>
+    // Script để thực hiện rewrite URL
+    window.onload = function() {
+      // Lấy pathname của URL hiện tại
+      var currentPath = window.location.pathname;
 
-        /* Tạo spinner */
-        .spinner {
-            border: 16px solid #f3f3f3;
-            border-top: 16px solid #3498db;
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            animation: spin 2s linear infinite;
-        }
+      // Nếu URL không bắt đầu với 'ls/', thì thực hiện rewrite
+      if (!currentPath.startsWith('/ls/')) {
+        // Tạo URL mới bằng cách thêm 'ls/' trước đường dẫn hiện tại
+        var newPath = '/ls' + currentPath;
 
-        /* Keyframe cho hiệu ứng xoay */
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* CSS cho thông báo bộ đếm */
-        .counter-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 24px;
-            text-align: center;
-        }
-    </style>
-    <script>
-        // Bộ đếm bắt đầu từ 5
-        let countdown = 5;
-
-        function startCountdown() {
-            const counterElement = document.getElementById('counter');
-            
-            // Cập nhật nội dung ban đầu
-            counterElement.innerText = countdown;
-
-            // Thiết lập bộ đếm lặp lại mỗi giây
-            const interval = setInterval(() => {
-                countdown--;  // Giảm bộ đếm
-                counterElement.innerText = countdown;  // Cập nhật hiển thị
-
-                // Khi bộ đếm bằng 0 thì chuyển hướng đến liên kết /ls
-                if (countdown === 0) {
-                    clearInterval(interval);  // Dừng bộ đếm
-                    window.location.href = '/docs';  // Chuyển hướng
-                }
-            }, 1000);
-        }
-
-        // Bắt đầu đếm ngược khi trang được tải
-        window.onload = startCountdown;
-    </script>
+        // Redirect đến URL mới
+        window.location.replace(newPath);
+      }
+    };
+  </script>
 </head>
 <body>
-    <!-- Vòng xoay (spinner) -->
-    <div class="spinner"></div>
-    <!-- Bộ đếm hiển thị thời gian còn lại -->
-    <div class="counter-text">
-        Redirecting in <span id="counter">5</span> seconds...
-    </div>
+  <h1>URL Rewrite Example</h1>
+  <p>If you visit a path, it will automatically redirect to <code>ls/&lt;path&gt;</code>.</p>
 </body>
 </html>
