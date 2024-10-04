@@ -22,7 +22,7 @@ export class UnitComponent {
   ngOnInit(): void {
     // Nhận giá trị của unit_name từ URL
     this.unitName = this.route.snapshot.paramMap.get('unit_name');
-    this.jsonPath = `assets/data/json/${this.unitName}.part2.json`;
+    this.jsonPath = `assets/data/json/${this.unitName}.json`;
     this._http.get(this.jsonPath).subscribe(res => {
 			this.unitData = res;
       this.practiceData = [];
