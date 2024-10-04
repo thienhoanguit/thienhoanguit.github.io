@@ -1,5 +1,5 @@
 <div class="grid">
-    <div class="col-12">
+    <!-- <div class="col-12">
         <p-accordion [activeIndex]="0">
             <p-accordionTab *ngIf="bookOnePartTwo" header="Very easy toeic">
                 <div *ngFor="let unit of bookOnePartTwo.VeryEasyToeic" class="col-12 book">
@@ -11,7 +11,7 @@
 
                     <form *ngIf="!data[unit.Unit - 1].showResults" class="flex flex-column mb-2">
                         <div *ngFor="let quiz of unit.Part2.Quiz; let i = index" class="flex justify-content-between">
-                            <span>{{ i + 1 }}.</span> <!-- Hiển thị số thứ tự câu hỏi -->
+                            <span>{{ i + 1 }}.</span> 
                             <label>
                                 <input type="radio" [(ngModel)]="data[unit.Unit - 1].userAnswers[i]" [value]="quiz.Answers[0]"
                                     name="question{{i}}" />
@@ -53,5 +53,9 @@
                 </div>
             </p-accordionTab>
         </p-accordion>
+    </div> -->
+    <div class="col-12">
+        <p><a href="unit/very-easy-toeic">Very Easy Toeic</a></p>
+        <p><a href="unit/starter-toeic">Starter Toeic</a></p>
     </div>
 </div>

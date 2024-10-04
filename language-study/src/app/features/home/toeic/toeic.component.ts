@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ToeicComponent {
 	private jsonVeryEasyToeicFile = 'assets/data/json/very-easy-toeic.part2.json';
+	private jsonStarterToeicFile = 'assets/data/json/starter-toeic.part2.json';
 	public bookOnePartTwo: any;
+	public bookSecondPartTwo: any;
 	data: any[]
 
 
