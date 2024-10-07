@@ -9,7 +9,8 @@ import { AccordionModule } from 'primeng/accordion';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DividerModule } from 'primeng/divider';
 import { ButtonModule } from 'primeng/button';
-const PRIMENG_MODULES = [AccordionModule, RadioButtonModule, DividerModule, ButtonModule ];
+import { DropdownModule } from 'primeng/dropdown';
+const PRIMENG_MODULES = [AccordionModule, RadioButtonModule, DividerModule, ButtonModule, DropdownModule ];
 
 @NgModule({
   declarations: [ToeicComponent, UnitComponent],
