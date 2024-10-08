@@ -54,7 +54,7 @@ Apache-2.0
 @firebase/component
 Apache-2.0
 
-@firebase/database
+@firebase/firestore
 Apache-2.0
 
 @firebase/logger
@@ -63,11 +63,14 @@ Apache-2.0
 @firebase/util
 Apache-2.0
 
+@firebase/webchannel-wrapper
+Apache-2.0
+
 firebase/app
 
 firebase/auth
 
-firebase/database
+firebase/firestore
 
 idb
 ISC
@@ -93,6 +96,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 primeng
 MIT
+
+rxfire/firestore
 
 rxjs
 Apache-2.0
