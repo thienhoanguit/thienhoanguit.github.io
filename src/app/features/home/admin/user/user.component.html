@@ -3,6 +3,7 @@
         <p-table [value]="userList" [tableStyle]="{ 'min-width': '50rem' }" dataKey="id" >
             <ng-template pTemplate="header">
                 <tr>
+                    <th></th>
                     <th>Tên</th>
                     <th>Email</th>
                     <th>Trạng thái</th>
@@ -10,6 +11,11 @@
             </ng-template>
             <ng-template pTemplate="body" let-user let-editing="editing">
                 <tr>
+                    <td><p-avatar 
+                        [image]="user.photoURL" 
+                        styleClass="mr-2" 
+                        size="xlarge" 
+                        shape="circle" /></td>
                     <td>{{ user.displayName }}</td>
                     <td>{{ user.email }}</td>
                     <td><p-inputSwitch [(ngModel)]="user.isActive" (onChange)="onSwitchChange($event, user.id)" />

@@ -11,8 +11,10 @@ import { AdminRoutingModule } from './admin.routing.module';
 import { CheckboxModule } from 'primeng/checkbox';
 import { UserComponent } from './user/user.component';
 import { InputSwitchModule } from 'primeng/inputswitch';
+import { AvatarModule } from 'primeng/avatar';
+import { AvatarGroupModule } from 'primeng/avatargroup';
 const PRIMENG_MODULES = [AccordionModule, RadioButtonModule, DividerModule, ButtonModule, DropdownModule, TableModule, 
-  CheckboxModule, InputSwitchModule ];
+  CheckboxModule, InputSwitchModule, AvatarModule, AvatarGroupModule ];
 
 
 
