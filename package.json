@@ -10,8 +10,7 @@
     "commit": "git add . && git commit -m \"Deploying build\"",
     "push": "git push origin main",
     "clone-html": "cp docs/index.html docs/404.html",
-    "predeploy": "npm run build && npm run push",
-    "deploy": "npm run commit && npm run push",
+    "deploy": " npm run clone-html && npm run commit && npm run push",
     "test": "ng test"
   },
   "private": true,

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../../shared/auth/auth.service';
-import { FirebaseDbService} from '../../../shared/firebase-db/firebase-db.service'
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { User } from '../../../shared/auth/user.model';
 import { NotifyService } from '../../../shared/notify/notify.service';
@@ -26,16 +25,13 @@ export class LoginComponent {
 	async loginWithGoogle() {
 		const provider = new GoogleAuthProvider();
 		await signInWithPopup(this.auth, provider)
-  		.then((result) => {
-			console.log('result: ', result);
+  		.then(async (result) => {
     		// This gives you a Google Access Token. You can use it to access the Google API.
     		const credential = GoogleAuthProvider.credentialFromResult(result);
-			console.log('credential: ', credential);
     		const token = credential?.accessToken;
     		// The signed-in user info.
     		const user = result.user;
-			console.log('user: ', user);
-			let res = this.authService.login({
+			let res = await this.authService.login({
 				photoURL: user.photoURL ?? '',
 				displayName: user.displayName ?? '',
 				email: user.email ?? '',
@@ -54,7 +50,6 @@ export class LoginComponent {
 				this._notifyService.error(res.message);
 			}
   		}).catch((error) => {
-			console.log('error: ', error);
     		// Handle Errors here.
     		const errorCode = error.code;
     		const errorMessage = error.message;

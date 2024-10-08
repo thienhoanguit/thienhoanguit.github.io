@@ -25,6 +25,16 @@ export class HomeComponent {
 				label: 'Toeic',
 				icon: 'pi pi-home',
 				routerLink: '/toeic'
+			},
+			{
+				label: 'Admin',
+				icon: 'pi pi-user',
+				visible: this._authService.isAdmin,
+				items: [{
+					routerLink: '/admin/users',
+					label: 'Users'
+				}
+				]
 			}
 			
 		]
