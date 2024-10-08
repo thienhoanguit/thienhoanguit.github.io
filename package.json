@@ -4,13 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --aot --output-hashing=all --base-href https://thienhoanguit.github.io/ --output-path docs",
+    "build": "ng build --configuration production --aot --output-hashing=all --base-href https://thienhoanguit.github.io/ --output-path docs",
     "build-local": "ng build --aot --output-hashing=all --base-href / --output-path ../docs",
     "watch": "ng build --watch --configuration development",
     "commit": "git add . && git commit -m \"Deploying build\"",
     "push": "git push origin main",
     "clone-html": "cp docs/index.html docs/404.html",
-    "deploy": " npm run clone-html && npm run commit && npm run push",
+    "deploy": "npm run build && npm run clone-html",
     "test": "ng test"
   },
   "private": true,
