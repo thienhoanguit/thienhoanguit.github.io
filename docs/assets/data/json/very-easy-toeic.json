@@ -52,6 +52,9 @@
                         "CorrectAnswer": "Usually at 8:00"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/01-3.mp3"
             }
         },
         {
@@ -105,6 +108,9 @@
                         "CorrectAnswer": "No, it isn't"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/02-3.mp3"
             }
         },
         {
@@ -158,6 +164,9 @@
                         "CorrectAnswer": "It was very scary"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/03-3.mp3"
             }
         },
         {
@@ -211,6 +220,9 @@
                         "CorrectAnswer": "Because it's cold"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/04-3.mp3"
             }
         },
         {
@@ -264,6 +276,9 @@
                         "CorrectAnswer": "She's a doctor"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/05-3.mp3"
             }
         },
         {
@@ -317,6 +332,9 @@
                         "CorrectAnswer": "Here, have some cookies"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/06-3.mp3"
             }
         },
         {
@@ -370,6 +388,9 @@
                         "CorrectAnswer": "At four o'clock"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/07-3.mp3"
             }
         },
         {
@@ -423,6 +444,9 @@
                         "CorrectAnswer": "It's over there"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/08-3.mp3"
             }
         },
         {
@@ -476,6 +500,9 @@
                         "CorrectAnswer": "On Sunday"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/09-3.mp3"
             }
         },
         {
@@ -529,6 +556,9 @@
                         "CorrectAnswer": "Yes, I have a rabbit"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/10-3.mp3"
             }
         },
         {
@@ -582,6 +612,9 @@
                         "CorrectAnswer": "For ten years"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/11-3.mp3"
             }
         },
         {
@@ -635,6 +668,9 @@
                         "CorrectAnswer": "Of course"
                     }
                 ]
+            },
+            "Part3": {
+                "Src": "assets/data/1.Very_Easy_Toeic/12-3.mp3"
             }
         }
     ],

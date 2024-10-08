@@ -7,7 +7,8 @@
             <p-accordionTab header="Phần 2">
                 <div class="col-12">
                     <label>Chọn bài: </label>
-                    <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnit" optionLabel="Unit" placeholder="Chọn bài" />
+                    <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnit" optionLabel="Unit"
+                        placeholder="Chọn bài" />
                 </div>
                 <div class="col-12">
                     <div *ngIf="selectedUnit">
@@ -16,9 +17,10 @@
                             <source [src]="selectedUnit.Part2.Src" type="audio/mpeg">
                             Your browser does not support the audio tag.
                         </audio>
-            
+
                         <form *ngIf="!practiceData[selectedUnit.Unit - 1].showResults" class="flex flex-column mb-2">
-                            <div *ngFor="let quiz of selectedUnit.Part2.Quiz; let i = index" class="flex justify-content-between">
+                            <div *ngFor="let quiz of selectedUnit.Part2.Quiz; let i = index"
+                                class="flex justify-content-between">
                                 <span>{{ i + 1 }}.</span>
                                 <label>
                                     <input type="radio" [(ngModel)]="practiceData[selectedUnit.Unit - 1].userAnswers[i]"
@@ -66,13 +68,21 @@
             <p-accordionTab header="Phần 3">
                 <div class="col-12">
                     <label>Chọn bài: </label>
-                    <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnitPart3" optionLabel="Unit" placeholder="Chọn bài" />
+                    <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnitPart3" optionLabel="Unit"
+                        placeholder="Chọn bài" />
+                </div>
+                <div *ngIf="selectedUnitPart3">
+                    <h5 class="mb-2">Unit {{ selectedUnitPart3.Unit }}</h5>
+                    <audio controls class="mb-2">
+                        <source [src]="selectedUnitPart3.Part3.Src" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
                 </div>
             </p-accordionTab>
             <p-accordionTab header="Phần 4">
-                
+
             </p-accordionTab>
         </p-accordion>
     </div>
-    
+
 </div>
