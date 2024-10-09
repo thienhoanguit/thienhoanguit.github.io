@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -16,6 +16,10 @@ export class UnitComponent {
 	isLoading: boolean = true;
 	selectedUnit: any;
 	selectedUnitPart3: any;
+	selectedUnitPart4: any;
+	@ViewChild('audioPlayerPart2') audioPlayerPart2!: ElementRef;
+	@ViewChild('audioPlayerPart3') audioPlayerPart3!: ElementRef;
+	@ViewChild('audioPlayerPart4') audioPlayerPart4!: ElementRef;
 
 	constructor(private route: ActivatedRoute, private _http: HttpClient) {
 
@@ -63,7 +67,27 @@ export class UnitComponent {
 		// Tính điểm
 		for (let i = 0; i < unit.Part2.Quiz.length; i++) {
 			if (this.practiceData[unit.Unit - 1].userAnswers[i] === unit.Part2.Quiz[i].CorrectAnswer) {
-				this.practiceData[unit.Unit - 1].totalScore += 2; // Mỗi câu đúng được 2 điểm
+				this.practiceData[unit.Unit - 1].totalScore += 1; // Mỗi câu đúng được 1 điểm
+			}
+		}
+	}
+
+	checkAnswersFinal() {
+		this.testData.results = [];
+		for (let i = 0; i < this.unitData.Test.Quiz.length; i++) {
+			const userAnswer = this.testData.userAnswers[i];
+			const correctAnswer = this.unitData.Test.Quiz[i].CorrectAnswer;
+			if (userAnswer === correctAnswer) {
+				this.testData.results.push('correct');
+			} else {
+				this.testData.results.push('incorrect');
+			}
+		}
+		this.testData.showResults = true;
+		// Tính điểm
+		for (let i = 0; i < this.unitData.Test.Quiz.length; i++) {
+			if (this.testData.userAnswers[i] === this.unitData.Test.Quiz[i].CorrectAnswer) {
+				this.testData.totalScore += 1; // Mỗi câu đúng được 1 điểm
 			}
 		}
 	}
@@ -73,5 +97,27 @@ export class UnitComponent {
 		this.practiceData[unit.Unit - 1].showResults = false;
 		this.practiceData[unit.Unit - 1].results = [];
 		this.practiceData[unit.Unit - 1].totalScore = 0;
+	}
+
+	resetQuizFinal() {
+		this.testData.userAnswers.fill('');
+		this.testData.showResults = false;
+		this.testData.results = [];
+		this.testData.totalScore = 0;
+	}
+
+	onUnitChange(part: number) {
+		if (part == 2) {
+			let a = this.audioPlayerPart2.nativeElement;
+			a.load();
+		} else if(part == 3) {
+			let a = this.audioPlayerPart3.nativeElement;
+			a.load();
+			
+		} else {
+			let a = this.audioPlayerPart4.nativeElement;
+			a.load();
+			
+		}
 	}
 }
