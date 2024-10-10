@@ -15,6 +15,10 @@ const routes: Routes = [
 				loadChildren: () => import('./toeic/toeic.module').then((m) => m.ToeicModule),
 			},
 			{
+				path: 'edx',
+				loadChildren: () => import('./edx/edx.module').then((m) => m.EdxModule),
+			},
+			{
 				path: 'data-hub',
 				loadChildren: () => import('./data-crud/data-crud.module').then((m) => m.DataCrudModule),
 			},

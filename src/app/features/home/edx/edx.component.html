@@ -1,0 +1,66 @@
+<p-stepper>
+    <p-stepperPanel header="General Information">
+        <ng-template pTemplate="content" let-nextCallback="nextCallback" let-index="index">
+            <div class="flex flex-column">
+                <h3>About the course</h3>
+                <p>If you are curious to learn more about the field of software engineering, this course is for you. No prior knowledge or qualification in programming or software development is necessary. Software Engineers are in great demand and now is a great time to learn more about this exciting career path.  </p>
+                <p>The field of software engineering is growing at an estimated rate of 22% according to the US Bureau of Labor and Statistics. In addition to aspiring software engineers, this course can also help others in related careers such as Product and Project Managers, IT Managers, Information Developers and others who communicate and interact with software engineers. </p>
+                <p>This course teaches you about the power of the Software Development Lifecycle (SDLC) and software development methodologies like Agile. Explore fundamental programming principles and foundations of design, architecture, and deployment. Investigate skills a software engineer needs and identify job opportunities with hands-on projects. You will also learn about programming basics and software development tools and stacks. </p>
+                <p>Also, throughout this course, you’ll hear from expert and novice software engineers to get a feel for what the job is like from their perspective.  After completing this introductory course you will be conversant in the tools, technologies, terminology, processes, and practices in software engineering.</p>
+                
+                <p-divider />
+                <h3>Recommended Background</h3>
+                <ul>
+                    <li>Basic computer and IT literacy. </li>
+                </ul>
+            </div>
+            <div class="flex pt-4 justify-content-end">
+                <p-button 
+                    label="Next" 
+                    icon="pi pi-arrow-right" 
+                    iconPos="right" 
+                    (onClick)="nextCallback.emit()" />
+            </div>
+        </ng-template>
+    </p-stepperPanel>
+    <p-stepperPanel header="Course Learning Objectives and Syllabus">
+        <ng-template pTemplate="content" let-prevCallback="prevCallback" let-nextCallback="nextCallback" let-index="index">
+            <div class="flex flex-column">
+                <h3>Course Learning Objectives and Syllabus</h3>
+                <h4>Course Learning Objectives</h4>
+                <ul>After completing this course, you should be able to:
+                    <li>Describe software engineering, approaches to software development, and software development tools and technologies.</li>
+                    <li>Evaluate different types of programming languages and synthesize basic programming constructs.</li>
+                    <li>Outline approaches to application and deployment architectures.</li>
+                    <li>Summarize the skills required in software engineering and describe the career options it provides.</li>
+                </ul>
+                <p-divider />
+                <h3>Syllabus</h3>
+                
+            </div>
+            <div class="flex pt-4 justify-content-between">
+                <p-button 
+                    label="Back" 
+                    icon="pi pi-arrow-left" 
+                    (onClick)="prevCallback.emit()" />
+                <p-button 
+                    label="Next" 
+                    icon="pi pi-arrow-right" 
+                    iconPos="right" 
+                    (onClick)="nextCallback.emit()" />
+            </div>
+        </ng-template>
+    </p-stepperPanel>
+    <p-stepperPanel header="Header III">
+        <ng-template pTemplate="content" let-prevCallback="prevCallback" let-index="index">
+            <div class="flex flex-column h-12rem">
+                <div class="border-2 border-dashed surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium">
+                    Content III
+                </div>
+            </div>
+            <div class="flex pt-4 justify-content-start">
+                <p-button label="Back" icon="pi pi-arrow-left" (onClick)="prevCallback.emit()" />
+            </div>
+        </ng-template>
+    </p-stepperPanel>
+</p-stepper>
