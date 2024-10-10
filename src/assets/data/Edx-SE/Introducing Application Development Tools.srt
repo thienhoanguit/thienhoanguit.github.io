@@ -1,0 +1,296 @@
+0
+00:00:00,000 --> 00:00:08,850
+(Music)
+
+1
+00:00:08,850 --> 00:00:12,220
+Welcome to Introducing Application Development Tools.
+
+2
+00:00:12,220 --> 00:00:18,130
+Getting your Cloud App from the ideas stage to fully formed, written, and deployed is
+
+3
+00:00:18,130 --> 00:00:23,110
+a long process, but there are many tools which will help you along the way.
+
+4
+00:00:23,110 --> 00:00:26,590
+A cloud application developer’s workbench includes:
+
+5
+00:00:26,590 --> 00:00:30,990
+Version Control, Libraries, and Frameworks.
+
+6
+00:00:30,990 --> 00:00:36,840
+When many developers are working on the same project, knowing what order changes were made,
+
+7
+00:00:36,840 --> 00:00:42,240
+thereby creating a new version of the source code, becomes overridingly important.
+
+8
+00:00:42,400 --> 00:00:48,440
+Version control systems keep track of what changes were made when and by whom and resolve
+
+9
+00:00:48,449 --> 00:00:51,250
+any conflicts between changes.
+
+10
+00:00:51,250 --> 00:00:56,350
+For developing your code, version control can be useful even when you are the sole contributor
+
+11
+00:00:56,350 --> 00:00:58,170
+on a project.
+
+12
+00:00:58,170 --> 00:01:02,790
+Properly used, it can give you a way to revert to an older version of your code if something
+
+13
+00:01:02,790 --> 00:01:09,780
+goes wrong and gives you some basic information about how the code developed over time.
+
+14
+00:01:09,780 --> 00:01:14,590
+Version control functionality is generally tied to the storage system you are using,
+
+15
+00:01:14,590 --> 00:01:20,310
+which is why a code repository is recommended, even for beginners.
+
+16
+00:01:20,310 --> 00:01:25,979
+Git and GitHub are extremely popular for source code storage and management.
+
+17
+00:01:25,979 --> 00:01:30,820
+Git stores files in repositories where you can track changes, split code into different
+
+18
+00:01:30,820 --> 00:01:36,630
+branches for more focused development, and then merge them back into the main body of
+
+19
+00:01:36,630 --> 00:01:38,789
+code.
+
+20
+00:01:38,789 --> 00:01:43,970
+Libraries are collections of code, like standard programs and subroutines, that you can use
+
+21
+00:01:43,970 --> 00:01:45,289
+within your code.
+
+22
+00:01:45,289 --> 00:01:51,561
+For example, you might want to include a navigational feature, like a carousel. A code library
+
+23
+00:01:51,561 --> 00:01:56,719
+can supply you with the code for that so that you don’t have to spend the time and energy
+
+24
+00:01:56,719 --> 00:02:00,020
+creating one from scratch.
+
+25
+00:02:00,020 --> 00:02:07,020
+Being able to reuse code in this way makes developing your app much quicker and easier.
+
+26
+00:02:07,020 --> 00:02:11,530
+Multiple code libraries can be integrated into your existing project.
+
+27
+00:02:11,530 --> 00:02:17,110
+As you discover a need for a specific function or feature, you can research an appropriate
+
+28
+00:02:17,110 --> 00:02:18,150
+library.
+
+29
+00:02:18,150 --> 00:02:23,390
+You determine when to call the required method as needed, and control returns to the program
+
+30
+00:02:23,390 --> 00:02:26,720
+flow once the subroutine is finished.
+
+31
+00:02:26,720 --> 00:02:30,810
+When you use a code library, you are in control.
+
+32
+00:02:30,810 --> 00:02:35,690
+Code libraries are generally used to solve a specific problem or add a specific feature
+
+33
+00:02:35,690 --> 00:02:36,690
+set.
+
+34
+00:02:36,690 --> 00:02:42,800
+Either way, there are lots for you to choose from, so do your research.
+
+35
+00:02:42,800 --> 00:02:45,560
+Here are some examples of code libraries:
+
+36
+00:02:45,560 --> 00:02:51,220
+jQuery is a JavaScript library that simplifies Dom manipulation.
+
+37
+00:02:51,220 --> 00:02:56,200
+Email-validator is a small library that checks an email address is correctly constructed
+
+38
+00:02:56,200 --> 00:02:57,920
+and valid.
+
+39
+00:02:57,920 --> 00:03:05,470
+Apache Commons Proper is a repository of reusable Java components.
+
+40
+00:03:05,470 --> 00:03:09,890
+Frameworks provide a standard way to build and deploy applications.
+
+41
+00:03:09,890 --> 00:03:15,480
+You can think of a framework as being a skeleton that you can extend by adding your own code,
+
+42
+00:03:15,480 --> 00:03:18,920
+providing a scaffold on which to build your apps.
+
+43
+00:03:18,920 --> 00:03:24,290
+The framework you intend to use must be determined early in your development planning and used
+
+44
+00:03:24,290 --> 00:03:26,090
+right from the beginning.
+
+45
+00:03:26,090 --> 00:03:31,150
+New frameworks can’t be incorporated into an existing project.
+
+46
+00:03:31,150 --> 00:03:37,040
+Your chosen framework dictates the architecture of your program and controls the program flow.
+
+47
+00:03:37,040 --> 00:03:42,450
+The framework determines which subroutines and methods will be called when. When working
+
+48
+00:03:42,450 --> 00:03:46,700
+with a framework, there is a specific structure that you must follow.
+
+49
+00:03:46,700 --> 00:03:51,960
+The framework is calls on your code, rather than you calling on the framework.
+
+50
+00:03:51,960 --> 00:03:57,500
+Frameworks are less flexible than libraries, allowing you less control, but they do provide
+
+51
+00:03:57,500 --> 00:04:02,440
+good standardization and can help you create efficient code.
+
+52
+00:04:02,440 --> 00:04:07,500
+To use an analogy, if you are a carpenter building a house, the framework is the frame
+
+53
+00:04:07,500 --> 00:04:13,250
+that you add to – bricks on the outside, plasterboard on the inside, and so on.
+
+54
+00:04:13,250 --> 00:04:17,540
+The frame acts as a guide for how the house is constructed.
+
+55
+00:04:17,540 --> 00:04:20,040
+Here are some examples of frameworks.
+
+56
+00:04:20,040 --> 00:04:25,880
+AngularJS is a JavaScript-based framework for dynamic web applications.
+
+57
+00:04:25,880 --> 00:04:31,350
+Vue.js is a JavaScript framework focused on the user interface.
+
+58
+00:04:31,350 --> 00:04:36,710
+Django is a framework that uses Python for web development.
+
+59
+00:04:36,710 --> 00:04:40,810
+Frameworks define the workflow that you must follow, unlike libraries, which allow you
+
+60
+00:04:40,810 --> 00:04:44,730
+to call functions as and when required.
+
+61
+00:04:44,730 --> 00:04:49,820
+When using a framework, it can sometimes feel like you, as a developer, are not in full
+
+62
+00:04:49,820 --> 00:04:53,000
+control of the development process.
+
+63
+00:04:53,000 --> 00:04:58,160
+This sense of the framework and its predefined workflow controlling the development process
+
+64
+00:04:58,160 --> 00:05:02,690
+is referred to as inversion of control.
+
+65
+00:05:02,690 --> 00:05:07,910
+Frameworks that have a lot of control are known as opinionated – they have opinions
+
+66
+00:05:07,910 --> 00:05:12,750
+on how their workflow should be used and remove a lot of the decisions you would otherwise
+
+67
+00:05:12,750 --> 00:05:19,900
+have to make about how code is written, the location of files, and even file names.
+
+68
+00:05:19,900 --> 00:05:25,090
+Frameworks often include their own libraries, which they call when needed.
+
+69
+00:05:25,090 --> 00:05:29,470
+Inversion of control allows you to create standardized apps, and takes away a lot of
+
+70
+00:05:29,470 --> 00:05:35,720
+the tedious configuration work, so you can focus on the code for your app.
+
+71
+00:05:35,720 --> 00:05:39,220
+In this video, you’ve learned about some of the tools that you will utilize in your
+
+72
+00:05:39,220 --> 00:05:41,660
+career as a developer including:
+
+73
+00:05:41,660 --> 00:05:44,850
+Version control, libraries, frameworks
+

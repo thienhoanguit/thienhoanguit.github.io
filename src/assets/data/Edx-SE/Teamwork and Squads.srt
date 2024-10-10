@@ -1,0 +1,292 @@
+0
+00:00:06,390 --> 00:00:09,130
+Welcome to Teamwork and Squads.
+
+1
+00:00:09,130 --> 00:00:14,880
+After watching this video, you will be able to define teamwork and describe the advantages
+
+2
+00:00:14,880 --> 00:00:20,880
+of collaboration in software engineering and describe squads.
+
+3
+00:00:20,880 --> 00:00:26,760
+By definition, a team is a group of people working together towards a common aim.
+
+4
+00:00:26,760 --> 00:00:31,329
+Within a team, you’ll find a range of different people with different skills, experience,
+
+5
+00:00:31,329 --> 00:00:32,760
+and talents.
+
+6
+00:00:32,760 --> 00:00:37,551
+Each person can give their attention and effort to the things that they are good at, and by
+
+7
+00:00:37,551 --> 00:00:42,520
+working alongside others on tasks outside their current repertoire, they can expand
+
+8
+00:00:42,520 --> 00:00:44,370
+their skillset.
+
+9
+00:00:44,370 --> 00:00:47,400
+Working in a team promotes creativity.
+
+10
+00:00:47,400 --> 00:00:52,640
+Collaborating with others gives you the opportunity to discuss ideas and challenge one another’s
+
+11
+00:00:52,640 --> 00:00:54,770
+thinking about a subject.
+
+12
+00:00:54,770 --> 00:01:01,019
+Good teamwork is empowering: positive attitudes and behaviors can impact the rest of the team
+
+13
+00:01:01,019 --> 00:01:03,780
+and create positive results.
+
+14
+00:01:03,780 --> 00:01:08,570
+Working well as a team doesn’t always come naturally, but there are some things you can
+
+15
+00:01:08,570 --> 00:01:11,290
+consider to help your team succeed.
+
+16
+00:01:11,290 --> 00:01:15,400
+Each member needs to trust and respect the other members of the team.
+
+17
+00:01:15,400 --> 00:01:21,400
+This generally comes with time, but depends on all of the members contributing equitably.
+
+18
+00:01:21,400 --> 00:01:26,369
+Defining and agreeing on goals for a project is essential so that the whole team knows
+
+19
+00:01:26,369 --> 00:01:28,320
+what they are working towards.
+
+20
+00:01:28,320 --> 00:01:34,579
+And you also need to define and agree on roles to avoid any duplication of effort or missed
+
+21
+00:01:34,579 --> 00:01:36,100
+tasks.
+
+22
+00:01:36,100 --> 00:01:40,380
+Working with each members strengths is important to make the most of the talent within your
+
+23
+00:01:40,380 --> 00:01:41,380
+team,
+
+24
+00:01:41,380 --> 00:01:45,290
+as is celebrating success and analysing problems.
+
+25
+00:01:45,290 --> 00:01:48,420
+Communication is vital in a team environment.
+
+26
+00:01:48,420 --> 00:01:52,979
+Ensure that you choose a method that works for everyone so you know that the whole team
+
+27
+00:01:52,979 --> 00:01:55,799
+is seeing and responding to information.
+
+28
+00:01:55,799 --> 00:02:00,180
+So, what does teamwork look like in software engineering?
+
+29
+00:02:00,180 --> 00:02:04,600
+Teams often start projects with a kick-off meeting where they plan how they will complete
+
+30
+00:02:04,600 --> 00:02:08,770
+the project, assign tasks, and agree on goals.
+
+31
+00:02:08,770 --> 00:02:13,230
+Throughout the lifetime of a project, you’re likely to have whole team and/or sub team
+
+32
+00:02:13,230 --> 00:02:16,500
+meetings to review progress and plans.
+
+33
+00:02:16,500 --> 00:02:21,950
+Design and code reviews can be requested at the team level and undertaken by whoever has
+
+34
+00:02:21,950 --> 00:02:25,620
+availability at that point in time.
+
+35
+00:02:25,620 --> 00:02:29,930
+Team members might present walkthroughs of their sections of responsibility to the rest
+
+36
+00:02:29,930 --> 00:02:34,880
+of team so that the whole team has oversight of all parts of the project.
+
+37
+00:02:34,880 --> 00:02:40,140
+And, key team members will likely present walkthroughs to stakeholders at various times
+
+38
+00:02:40,140 --> 00:02:42,170
+during the project.
+
+39
+00:02:42,170 --> 00:02:47,060
+When a project is complete, retrospective meetings may be held to review what went well
+
+40
+00:02:47,060 --> 00:02:50,540
+and what could be improved in future projects.
+
+41
+00:02:50,540 --> 00:02:55,470
+You may have a mentor who may or may not be in your current project team.
+
+42
+00:02:55,470 --> 00:02:58,110
+You might also be asked to be a mentor.
+
+43
+00:02:58,110 --> 00:03:03,160
+Sometimes team mentoring is used so everyone can learn from each other.
+
+44
+00:03:03,160 --> 00:03:09,400
+Some groups also have teams working on internal projects such as defining coding standards,
+
+45
+00:03:09,400 --> 00:03:14,860
+maintaining or updating legacy cross-project code, or reviewing potential new software
+
+46
+00:03:14,860 --> 00:03:17,650
+for usefulness to the team.
+
+47
+00:03:17,650 --> 00:03:21,450
+Good teamwork can bring many benefits to a project.
+
+48
+00:03:21,450 --> 00:03:27,690
+Working alongside others can encourage creativity and enable you to take advantage of each person’s
+
+49
+00:03:27,690 --> 00:03:31,989
+strengths while also allowing them to gain knowledge and skills from other members of
+
+50
+00:03:31,989 --> 00:03:33,370
+the team.
+
+51
+00:03:33,370 --> 00:03:38,780
+When working as part of a team, software engineers are more likely to adhere to corporate coding
+
+52
+00:03:38,780 --> 00:03:42,540
+standards and regularly document their code.
+
+53
+00:03:42,540 --> 00:03:48,440
+The additional accountability that teamwork creates results in better quality code, fewer
+
+54
+00:03:48,440 --> 00:03:52,080
+bugs, and more maintainable code.
+
+55
+00:03:52,080 --> 00:03:57,150
+From a software engineer’s point of view, working as a team can reduce stress because
+
+56
+00:03:57,150 --> 00:04:01,000
+there’s always someone to turn to and get help from.
+
+57
+00:04:01,000 --> 00:04:05,690
+And having someone to discuss problems with can help you to increase your understanding
+
+58
+00:04:05,690 --> 00:04:09,159
+and resolve more issues by yourself.
+
+59
+00:04:09,159 --> 00:04:15,110
+By working in a team, each member has a greater idea of the bigger picture, resulting in a
+
+60
+00:04:15,110 --> 00:04:18,519
+more coherent overall solution.
+
+61
+00:04:18,519 --> 00:04:24,130
+Some organizations that follow Agile development methodologies may call a team a squad.
+
+62
+00:04:24,130 --> 00:04:28,350
+Typically, a squad is a small team of up to 10 developers.
+
+63
+00:04:28,350 --> 00:04:30,160
+It is likely to consist of:
+
+64
+00:04:30,160 --> 00:04:34,730
+A squad leader who acts as the anchor developer and coach for the squad.
+
+65
+00:04:34,730 --> 00:04:41,030
+And a few software engineers who develop and implement the product features and test cases.
+
+66
+00:04:41,030 --> 00:04:46,750
+It may also include one or two user experience developers or designers.
+
+67
+00:04:46,750 --> 00:04:51,870
+In some squads the developers may work together in pairs to practice pair programming.
+
+68
+00:04:51,870 --> 00:04:57,000
+You’ll learn more about pair programming in another video.
+
+69
+00:04:57,000 --> 00:04:59,530
+In this video, you learned that:
+
+70
+00:04:59,530 --> 00:05:04,300
+Software engineering teams meet regularly throughout the duration of a project.
+
+71
+00:05:04,300 --> 00:05:12,250
+Good teamwork encourages creativity, shares knowledge, and results in better quality code.
+
+72
+00:05:12,250 --> 00:05:15,280
+Squads are small teams used in agile development.
+

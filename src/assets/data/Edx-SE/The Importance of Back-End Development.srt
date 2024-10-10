@@ -1,0 +1,316 @@
+0
+00:00:00,000 --> 00:00:04,950
+(Music)
+
+1
+00:00:04,950 --> 00:00:08,530
+Welcome to the importance of back-end development.
+
+2
+00:00:08,530 --> 00:00:16,209
+A front-end developer creates websites and Cloud applications, using HTML, CSS and JavaScript
+
+3
+00:00:16,209 --> 00:00:22,290
+to create what the user sees and interacts with in the client software.
+
+4
+00:00:22,290 --> 00:00:27,430
+A back-end developer creates and manages all the resources that are needed to respond to
+
+5
+00:00:27,430 --> 00:00:31,090
+the requests that the user makes through the client.
+
+6
+00:00:31,090 --> 00:00:37,010
+The back-end developer’s tasks focus on enabling the server infrastructure, or back-end,
+
+7
+00:00:37,010 --> 00:00:43,140
+to process requests, supply data, and provide other services securely.
+
+8
+00:00:43,220 --> 00:00:48,040
+Front-end and back-end developers must work together very closely.
+
+9
+00:00:48,040 --> 00:00:52,560
+Each needs to understand the requirements of the solution and how their respective parts
+
+10
+00:00:52,560 --> 00:00:56,820
+will interact before the development process can begin.
+
+11
+00:00:56,820 --> 00:01:01,940
+Throughout the lifecycle of the website or Cloud app, front-end and back-end developers
+
+12
+00:01:01,940 --> 00:01:06,939
+collaborate to resolve issues and add functionality.
+
+13
+00:01:06,939 --> 00:01:11,380
+How does the work of a back-end developer affect you as you are browsing the internet
+
+14
+00:01:11,380 --> 00:01:13,359
+or using a Cloud app?
+
+15
+00:01:13,359 --> 00:01:19,409
+Think about it like this: when you’re shopping online, what happens to the data you enter?
+
+16
+00:01:19,409 --> 00:01:23,840
+Your login information, your product searches, your payment info?
+
+17
+00:01:23,840 --> 00:01:29,360
+The back-end processes all these things, and the back-end developers write and maintain
+
+18
+00:01:29,360 --> 00:01:33,100
+the parts of the application that process the inputs.
+
+19
+00:01:33,100 --> 00:01:38,679
+Let’s think about your experience as you explore an online shopping site and make a
+
+20
+00:01:38,679 --> 00:01:39,999
+purchase.
+
+21
+00:01:39,999 --> 00:01:45,259
+As you search for products, your search request is submitted to a web application which then
+
+22
+00:01:45,259 --> 00:01:52,399
+retrieves the data from a separate database and serves it back to the client for display.
+
+23
+00:01:52,399 --> 00:01:58,329
+To facilitate this, a back-end developer must understand the language that the web application
+
+24
+00:01:58,329 --> 00:02:04,930
+uses, how to query the database for the correct data, and how to bring the two together.
+
+25
+00:02:04,930 --> 00:02:09,869
+Even a simple task like navigating around the site can require the skills of a back-end
+
+26
+00:02:09,869 --> 00:02:11,330
+developer.
+
+27
+00:02:11,330 --> 00:02:16,140
+Many sites have restricted areas that are only available to users who have an account
+
+28
+00:02:16,140 --> 00:02:18,239
+and have logged in.
+
+29
+00:02:18,239 --> 00:02:23,310
+User account management, authentication and authorization can be the responsibility of
+
+30
+00:02:23,310 --> 00:02:26,159
+the back-end developer too.
+
+31
+00:02:26,159 --> 00:02:31,659
+Once you’ve decided what you want to purchase, you must add it to your cart and make a payment.
+
+32
+00:02:31,659 --> 00:02:36,920
+The purchase process requires you to submit sensitive information, such as your address
+
+33
+00:02:36,920 --> 00:02:43,230
+and credit card number, and the back-end developer must ensure that this data is securely handled
+
+34
+00:02:43,230 --> 00:02:45,680
+and stored.
+
+35
+00:02:45,680 --> 00:02:50,860
+Front-end client interactions, whether a request for data like an image, accepting input from
+
+36
+00:02:50,860 --> 00:02:56,819
+a user filling out a form, or securing sensitive information like a credit card number all
+
+37
+00:02:56,819 --> 00:03:00,909
+require different services from the back-end server.
+
+38
+00:03:00,909 --> 00:03:05,709
+Each request needs to interact with the back-end in a different way.
+
+39
+00:03:05,709 --> 00:03:11,959
+Back-end developers use APIs, routes, and endpoints to process incoming requests:
+
+40
+00:03:11,959 --> 00:03:21,099
+An API is code that works with data, usually using JSON or XML. APIs have set rules and
+
+41
+00:03:21,099 --> 00:03:22,099
+structure.
+
+42
+00:03:22,099 --> 00:03:28,099
+A route is a path to a website or page that the user interacts with.
+
+43
+00:03:28,099 --> 00:03:32,650
+Routes generally take user input and show results based on the input.
+
+44
+00:03:32,650 --> 00:03:38,030
+An endpoint may be an API or may simply be a path.
+
+45
+00:03:38,030 --> 00:03:42,879
+When a request from the front-end arrives at the back-end, it is routed to the correct
+
+46
+00:03:42,879 --> 00:03:43,879
+service.
+
+47
+00:03:43,879 --> 00:03:49,220
+If the backend has an end point defined for the request by using routing, the request
+
+48
+00:03:49,220 --> 00:03:51,999
+will be addressed and replied to.
+
+49
+00:03:51,999 --> 00:03:57,780
+If the end point is missing, the server returns a 404 error.
+
+50
+00:03:57,780 --> 00:04:02,879
+Back-end developers must create and maintain this server-side routing.
+
+51
+00:04:02,879 --> 00:04:08,599
+Along with backend APIs, routes effectively allow the front-end client to plug into the
+
+52
+00:04:08,599 --> 00:04:11,079
+correct socket at the back-end.
+
+53
+00:04:11,079 --> 00:04:17,590
+APIs provide a mechanism for Cloud apps, mobile apps, and other types of software to access
+
+54
+00:04:17,590 --> 00:04:20,970
+resources from the back-end.
+
+55
+00:04:20,970 --> 00:04:25,750
+To perform all this back-end development you will need to be familiar with at least one
+
+56
+00:04:25,750 --> 00:04:30,030
+back-end language, and its associated frameworks.
+
+57
+00:04:30,030 --> 00:04:35,000
+Among the most popular languages today is JavaScript, which was originally designed
+
+58
+00:04:35,000 --> 00:04:42,220
+to run in web browsers, adding extra interactivity and dynamic content to web pages.
+
+59
+00:04:42,220 --> 00:04:48,950
+JavaScript is also being used on the back-end, with new releases adding server-side functionality.
+
+60
+00:04:48,950 --> 00:04:56,600
+JavaScript has many frameworks, but two of the most well-known are Node.js and Express.
+
+61
+00:04:56,600 --> 00:05:02,840
+Python is another popular language; it’s very flexible and easy to learn. Python has
+
+62
+00:05:02,840 --> 00:05:08,000
+wide functionality – it can be used for everything from creating web pages to connecting
+
+63
+00:05:08,000 --> 00:05:11,640
+to a database, to performing data analysis.
+
+64
+00:05:11,640 --> 00:05:16,840
+Two well-known Python frameworks are Django and Flask.
+
+65
+00:05:16,840 --> 00:05:22,330
+Back-end developers often work with data and databases, so you will also benefit from learning
+
+66
+00:05:22,330 --> 00:05:23,950
+some SQL.
+
+67
+00:05:23,950 --> 00:05:29,940
+To help handle requests from databases, back-end developers can use object-relational mapping
+
+68
+00:05:29,940 --> 00:05:36,420
+tools (ORM) to connect to the database and retrieve the correct data.
+
+69
+00:05:36,420 --> 00:05:42,640
+Although an ORM can hide some of the complexity of querying databases, it’s useful to understand
+
+70
+00:05:42,640 --> 00:05:49,840
+the fundamentals of databases so that you can troubleshoot any issues that arise.
+
+71
+00:05:49,840 --> 00:05:54,850
+The day-to-day tasks of a back-end developer focus on the behind the scenes functionality
+
+72
+00:05:54,850 --> 00:06:00,280
+that keeps websites, cloud apps and mobile apps up and running.
+
+73
+00:06:00,280 --> 00:06:05,390
+Back-end development covers a wide range of technologies, from managing user accounts,
+
+74
+00:06:05,390 --> 00:06:11,680
+authentication and authorization to ensuring that sensitive data is stored and transferred
+
+75
+00:06:11,680 --> 00:06:13,080
+securely.
+
+76
+00:06:13,080 --> 00:06:18,960
+Back-end developers also work with databases, retrieving , processing and storing data as
+
+77
+00:06:18,960 --> 00:06:19,980
+required.
+
+78
+00:06:19,980 --> 00:06:24,710
+Life for a back-end developer is varied, challenging, and ever changing.
+

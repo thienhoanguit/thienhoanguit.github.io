@@ -1,0 +1,156 @@
+0
+00:00:05,870 --> 00:00:10,870
+Welcome to Insiders' Viewpoints: Teamwork in Software Engineering.
+
+1
+00:00:10,870 --> 00:00:16,660
+In this video, we will hear from experts discussing how teamwork is important in software development,
+
+2
+00:00:16,660 --> 00:00:19,090
+and how teams work together.
+
+3
+00:00:19,090 --> 00:00:24,790
+Yeah, so teamwork is very, very important in the world of software development.
+
+4
+00:00:24,790 --> 00:00:29,070
+As a software engineer, you're not just going to be sitting at your desk coding all day.
+
+5
+00:00:29,070 --> 00:00:36,750
+One of the most important aspects of working on a team or on an engineering team is communication,
+
+6
+00:00:36,750 --> 00:00:42,030
+and knowing how to collaborate and speak with your team members about the code you've written,
+
+7
+00:00:42,030 --> 00:00:47,339
+especially if you're going to a UX designer, and say, Hey, here's what I can do.
+
+8
+00:00:47,339 --> 00:00:49,329
+And your spec is a bit off.
+
+9
+00:00:49,329 --> 00:00:56,030
+Can we massage your your specs a bit just so we can meet the code coding requirements.
+
+10
+00:00:56,030 --> 00:01:04,500
+Incredibly important, I while I think it's possible for a single person to engineer and
+
+11
+00:01:04,500 --> 00:01:12,410
+deploy and run software, I, I think doing it as a team is both more impactful and gets
+
+12
+00:01:12,410 --> 00:01:17,460
+you more potential to do bigger and greater things, I think it's also just a more fulfilling
+
+13
+00:01:17,460 --> 00:01:25,780
+process, when you're when you're, you're building something with a group of individuals, I think,
+
+14
+00:01:25,780 --> 00:01:30,460
+you know, with without the support structure, it's hard to build something and support it
+
+15
+00:01:30,460 --> 00:01:32,820
+and maintain it just by yourself.
+
+16
+00:01:32,820 --> 00:01:37,950
+So teamwork, to me, is essential, because we're talking to each other all day.
+
+17
+00:01:37,950 --> 00:01:42,680
+And we're not only talking to our tech leads or senior engineer, we're talking to product
+
+18
+00:01:42,680 --> 00:01:46,610
+managers, we're talking to UX designers, we're talking to business analysts, we're talking
+
+19
+00:01:46,610 --> 00:01:49,590
+to data analysts, and so on and so forth.
+
+20
+00:01:49,590 --> 00:01:54,270
+You have the support system, you have diversity of opinions and perspectives in terms of how
+
+21
+00:01:54,270 --> 00:01:59,630
+you go about building it, it's more satisfying, you kind of can take larger risks, because
+
+22
+00:01:59,630 --> 00:02:03,870
+you're, you're in it together, and you're there to support each other, I think the celebration
+
+23
+00:02:03,870 --> 00:02:10,530
+of of a job well done is is a lot more, you know, it's a lot more fulfilling when you're
+
+24
+00:02:10,530 --> 00:02:11,690
+when you're doing that with someone else.
+
+25
+00:02:11,690 --> 00:02:17,129
+But I think it just gives you both kind of a larger range of scope and a larger sort
+
+26
+00:02:17,129 --> 00:02:23,379
+of risk portfolio, if you will, and you're able to, I think just, you know, get a lot
+
+27
+00:02:23,379 --> 00:02:29,269
+more done a lot more checks and balances and really gives you you know, less likely, there's
+
+28
+00:02:29,269 --> 00:02:33,209
+a less likely chance that you're gonna miss something, or you're gonna make a mistake,
+
+29
+00:02:33,209 --> 00:02:36,709
+there's a lot of a lot of support there.
+
+30
+00:02:36,709 --> 00:02:43,000
+And so every project I've worked on has had at least three other people that I have needed
+
+31
+00:02:43,000 --> 00:02:52,069
+to communicate with and support to be a reliable resource for them to go to them for questions.
+
+32
+00:02:52,069 --> 00:02:56,459
+Like I always have to be talking to somebody about something.
+
+33
+00:02:56,459 --> 00:02:58,549
+So teamwork is crucial.
+
+34
+00:02:58,549 --> 00:03:03,989
+Like, you can't, you can't work in an isolated silo forever, at some point, you have to talk
+
+35
+00:03:03,989 --> 00:03:05,730
+to someone else.
+
+36
+00:03:05,730 --> 00:03:11,779
+Building a project product takes a lot of people, a lot of us come together to make
+
+37
+00:03:11,779 --> 00:03:15,569
+a whole and to get the product shipped to production so our users can use it.
+
+38
+00:03:15,569 --> 00:03:19,510
+And so teamwork is imperative.
+

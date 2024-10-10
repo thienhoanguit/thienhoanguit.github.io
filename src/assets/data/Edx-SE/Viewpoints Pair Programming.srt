@@ -1,0 +1,272 @@
+0
+00:00:07,410 --> 00:00:11,090
+Welcome to Insiders’ Viewpoints: Pair Programming.
+
+1
+00:00:11,090 --> 00:00:16,170
+In this video, software engineers will discuss their experiences with peer programming and
+
+2
+00:00:16,170 --> 00:00:20,360
+share their thoughts about the benefits and potential challenges associated with this
+
+3
+00:00:20,360 --> 00:00:22,030
+way of working.
+
+4
+00:00:22,030 --> 00:00:27,869
+First, we'll begin by asking about their experiences with pair programming and about the benefits
+
+5
+00:00:27,869 --> 00:00:31,699
+they associate with it.
+
+6
+00:00:31,699 --> 00:00:37,410
+At every job I've ever had, there have come times where you pair up with someone else,
+
+7
+00:00:37,410 --> 00:00:42,170
+you get someone else sitting next to you at a computer, you're sitting next to them at
+
+8
+00:00:42,170 --> 00:00:46,010
+their computer, you're looking at a problem together, you're thinking about it.
+
+9
+00:00:46,010 --> 00:00:51,870
+Yes, I have actually, some of the benefits are definitely working with an engineer who
+
+10
+00:00:51,870 --> 00:00:55,531
+might be more of a senior engineer, because they have a lot of insight.
+
+11
+00:00:55,531 --> 00:00:58,989
+And they obviously have a lot of experience doing what you're probably trying to figure
+
+12
+00:00:58,989 --> 00:01:01,000
+out how to do.
+
+13
+00:01:01,000 --> 00:01:05,390
+And it's really great when it's someone who can both guide you but also kind of take take
+
+14
+00:01:05,390 --> 00:01:09,270
+a step back and not take over at the same time.
+
+15
+00:01:09,270 --> 00:01:12,700
+I think pair programming can can be very beneficial.
+
+16
+00:01:12,700 --> 00:01:15,970
+I think.
+
+17
+00:01:15,970 --> 00:01:19,880
+If you're when you're working with someone together, it's an opportunity to learn I think
+
+18
+00:01:19,880 --> 00:01:24,500
+pair programming can be very great in circumstances where someone is new to a team.
+
+19
+00:01:24,500 --> 00:01:29,860
+New to a programming language new to a set of tools, or a development environment
+
+20
+00:01:29,860 --> 00:01:34,910
+that is new to them, sitting next to someone who's an expert, I think can both help
+
+21
+00:01:34,910 --> 00:01:41,640
+you ramp up more quickly, it can help the the team itself, sort of understand where
+
+22
+00:01:41,640 --> 00:01:45,910
+you are, in terms of your own knowledge and journey and help put you in a place to
+
+23
+00:01:45,910 --> 00:01:50,520
+both succeed and utilize you in your skills as best as possible.
+
+24
+00:01:50,520 --> 00:01:54,490
+It does help you get real time feedback, you don't necessarily have to wait for code
+
+25
+00:01:54,490 --> 00:02:00,050
+to be sent out to be reviewed, and you can kind of, you know, brainstorm together
+
+26
+00:02:00,050 --> 00:02:04,300
+in real time on the actual implementation of it.
+
+27
+00:02:04,300 --> 00:02:11,790
+Ultimately, I try to keep in mind that the goal of pair programming is that everyone
+
+28
+00:02:11,790 --> 00:02:14,490
+has inherent blind spots in the way that they think.
+
+29
+00:02:14,490 --> 00:02:16,860
+And that the way that they approach a problem.
+
+30
+00:02:16,860 --> 00:02:23,090
+And if you are talking to somebody else, they can point out what your blind spots are.
+
+31
+00:02:23,090 --> 00:02:24,980
+And they're going to have different blind spots than you as well.
+
+32
+00:02:24,980 --> 00:02:28,740
+So you can point out their blind spots.
+
+33
+00:02:28,740 --> 00:02:32,370
+What do you think are the drawbacks and challenges of pair programming?
+
+34
+00:02:32,370 --> 00:02:35,910
+I think that can be a con sometimes when you're working with another engineer and you're
+
+35
+00:02:35,910 --> 00:02:40,190
+trying to pair program with someone who kind of like takes over and then doesn't allow
+
+36
+00:02:40,190 --> 00:02:46,620
+you to do your part or to learn especially if they kind of like already know how to do
+
+37
+00:02:46,620 --> 00:02:47,620
+something.
+
+38
+00:02:47,620 --> 00:02:49,320
+So it's kind of like a double-edged sword.
+
+39
+00:02:49,320 --> 00:02:53,310
+On the one hand, you want to get that practical experience of practice of pair programming
+
+40
+00:02:53,310 --> 00:02:56,680
+and you want to get that experience from someone else.
+
+41
+00:02:56,680 --> 00:03:00,420
+But at the same time, you want to make sure that you're learning.
+
+42
+00:03:00,420 --> 00:03:07,510
+I personally find pair programming to be a little frustrating.
+
+43
+00:03:07,510 --> 00:03:12,090
+Because the ways I go about solving problems can be very different than the ways other
+
+44
+00:03:12,090 --> 00:03:14,200
+people go about solving problems.
+
+45
+00:03:14,200 --> 00:03:19,319
+And it's not that I have some special, unique, wonderful technique, it's just that everyone's
+
+46
+00:03:19,319 --> 00:03:21,400
+brain works differently.
+
+47
+00:03:21,400 --> 00:03:26,960
+And watching someone else go through their workflow of how to solve a problem, they're
+
+48
+00:03:26,960 --> 00:03:29,510
+not clicking the exact same buttons that you are.
+
+49
+00:03:29,510 --> 00:03:31,830
+And that can get very frustrating to me.
+
+50
+00:03:31,830 --> 00:03:35,280
+It's like, why are you using your mouse because all those things, there's keystrokes
+
+51
+00:03:35,280 --> 00:03:37,459
+or like, you could be doing this so much faster.
+
+52
+00:03:37,459 --> 00:03:42,780
+And so I find it a challenge to do pair programming sometimes.
+
+53
+00:03:42,780 --> 00:03:46,030
+You actually need calendar time.
+
+54
+00:03:46,030 --> 00:03:49,270
+So you need to be able to dedicate time to sit together and work together and have an
+
+55
+00:03:49,270 --> 00:03:51,600
+aligned schedule.
+
+56
+00:03:51,600 --> 00:03:54,800
+You both you can either be physical, could do it virtually, but you need to make the
+
+57
+00:03:54,800 --> 00:03:56,380
+time to do it.
+
+58
+00:03:56,380 --> 00:04:00,110
+Peer programming, some can come with some overhead in terms of getting
+
+59
+00:04:00,110 --> 00:04:01,110
+off the ground.
+
+60
+00:04:01,110 --> 00:04:06,250
+So if you have a tight time crunch, competing priorities, maybe just not enough, there might
+
+61
+00:04:06,250 --> 00:04:09,890
+be not enough time in the schedule to allow for it, that can be one of the cons.
+
+62
+00:04:09,890 --> 00:04:15,360
+That it can while you can get long term, I think efficiency benefits from you know,
+
+63
+00:04:15,360 --> 00:04:19,019
+built, did writing the code together, because then support in the future will be easier
+
+64
+00:04:19,019 --> 00:04:23,960
+because you have more people who know how the code was written and what the intent was.
+
+65
+00:04:23,960 --> 00:04:26,370
+So there are definitely long term benefits.
+
+66
+00:04:26,370 --> 00:04:28,570
+But there could be you know, some short term costs to it.
+
+67
+00:04:28,570 --> 00:04:32,970
+So there are trade offs in that sense.
+
