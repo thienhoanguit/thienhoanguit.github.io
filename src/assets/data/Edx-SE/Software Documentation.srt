@@ -1,0 +1,288 @@
+0
+00:00:06,440 --> 00:00:09,100
+Hello and welcome to Software Documentation.
+
+1
+00:00:09,100 --> 00:00:12,350
+After watching this video, you will be able to:
+
+2
+00:00:12,350 --> 00:00:14,780
+List documentation formats.
+
+3
+00:00:14,780 --> 00:00:20,150
+Compare and contrast product documentation to process documentation.
+
+4
+00:00:20,150 --> 00:00:23,240
+Describe the categories and types of documentation.
+
+5
+00:00:23,240 --> 00:00:28,090
+And explain the purpose of standard operating procedures.
+
+6
+00:00:28,090 --> 00:00:33,059
+Software documentation is information about the software that describes what the product
+
+7
+00:00:33,059 --> 00:00:35,940
+is and how to use it. These can be
+
+8
+00:00:35,940 --> 00:00:36,940
+written,
+
+9
+00:00:36,940 --> 00:00:37,940
+video, or
+
+10
+00:00:37,940 --> 00:00:43,379
+graphical assets associated with a software product’s development and use.
+
+11
+00:00:43,379 --> 00:00:47,660
+Documentation can be in any of these three formats.
+
+12
+00:00:47,660 --> 00:00:52,699
+Documentation is an essential aspect of software engineering applicable across all the phases
+
+13
+00:00:52,699 --> 00:00:54,979
+of SDLC.
+
+14
+00:00:54,979 --> 00:01:00,179
+Software Documentation can be written for different types of audiences – such as end
+
+15
+00:01:00,179 --> 00:01:07,409
+users, software developers, QA engineers, system administrators and other stakeholders.
+
+16
+00:01:07,409 --> 00:01:12,850
+Documentation can be divided into two categories, product and process.
+
+17
+00:01:12,850 --> 00:01:18,200
+Product documentation relates to the product’s functionality, whereas process documentation
+
+18
+00:01:18,200 --> 00:01:21,440
+describes how to complete a task.
+
+19
+00:01:21,440 --> 00:01:27,010
+Process documentation should provide the requirements for the quality implementation of a business
+
+20
+00:01:27,010 --> 00:01:28,010
+process.
+
+21
+00:01:28,010 --> 00:01:33,390
+Now, let’s discuss some specific types of product documentation.
+
+22
+00:01:33,390 --> 00:01:38,340
+There are many types of documentation. We will discuss five categories including
+
+23
+00:01:38,340 --> 00:01:39,340
+requirements,
+
+24
+00:01:39,340 --> 00:01:40,340
+design,
+
+25
+00:01:40,340 --> 00:01:41,340
+technical,
+
+26
+00:01:41,340 --> 00:01:42,340
+quality assurance,
+
+27
+00:01:42,340 --> 00:01:45,270
+and user documentation.
+
+28
+00:01:45,270 --> 00:01:50,470
+Requirements documentation is written during the planning phase of the SDLC and is intended
+
+29
+00:01:50,470 --> 00:01:56,740
+for the development team including the developers, architects, and QA personnel.
+
+30
+00:01:56,740 --> 00:02:01,690
+Requirements documentation describes the expected features and functionality of the software
+
+31
+00:02:01,690 --> 00:02:02,690
+system.
+
+32
+00:02:02,690 --> 00:02:08,979
+It includes the software requirements specifications, system requirement specifications, and user
+
+33
+00:02:08,979 --> 00:02:11,870
+acceptance specifications.
+
+34
+00:02:11,870 --> 00:02:17,230
+Design documentation is written by the software architects and the development team to explain
+
+35
+00:02:17,230 --> 00:02:21,020
+how the software will be built to meet the requirements.
+
+36
+00:02:21,020 --> 00:02:26,040
+It consists of both conceptual and technical design documents.
+
+37
+00:02:26,040 --> 00:02:30,960
+Technical documentation includes comments written in the code to help other developers
+
+38
+00:02:30,960 --> 00:02:36,770
+read the code to understand its behavior. It also may include working papers that explain
+
+39
+00:02:36,770 --> 00:02:42,819
+how the code works and documents that record engineers’ ideas and thoughts during project
+
+40
+00:02:42,819 --> 00:02:44,550
+implementation.
+
+41
+00:02:44,550 --> 00:02:50,459
+Quality assurance documentation includes all documents that pertain to a testing team’s
+
+42
+00:02:50,459 --> 00:02:53,700
+strategy, progress, and metrics.
+
+43
+00:02:53,700 --> 00:03:00,490
+Types of test documentation include test plans, test data, test scenarios, test cases, test
+
+44
+00:03:00,490 --> 00:03:09,400
+strategies, and traceability matrices. Traceability matrices map test cases to their requirements.
+
+45
+00:03:09,400 --> 00:03:15,550
+User documentation is intended for end-users and explains how to operate the software or
+
+46
+00:03:15,550 --> 00:03:19,540
+help them to install or troubleshoot the system.
+
+47
+00:03:19,540 --> 00:03:25,349
+End-user documentation includes frequently asked questions, installation and help guides,
+
+48
+00:03:25,349 --> 00:03:27,960
+tutorials, and user manuals.
+
+49
+00:03:27,960 --> 00:03:34,880
+Standard operating procedures, called SOPs, often accompany process documentation.
+
+50
+00:03:34,880 --> 00:03:40,890
+Process documentation provides an overview of a process, but SOPs go through much greater
+
+51
+00:03:40,890 --> 00:03:47,410
+detail. The SOP is written documentation that explains step-by-step how to accomplish a
+
+52
+00:03:47,410 --> 00:03:54,360
+common, yet complex task that is organization specific. For example, checking in code using
+
+53
+00:03:54,360 --> 00:03:58,780
+a code repository is common knowledge for a software engineer.
+
+54
+00:03:58,780 --> 00:04:04,780
+However, an organization might have specific steps to follow for that organization in order
+
+55
+00:04:04,780 --> 00:04:08,230
+to get code merged into the main branch.
+
+56
+00:04:08,230 --> 00:04:15,520
+The SOP documentation explains those steps in detail. SOPs can be in the form of a
+
+57
+00:04:15,520 --> 00:04:16,520
+flowchart,
+
+58
+00:04:16,520 --> 00:04:18,160
+a hierarchical outline,
+
+59
+00:04:18,160 --> 00:04:20,829
+or step-by-step instructions.
+
+60
+00:04:20,829 --> 00:04:28,720
+Documentation, in any form, must be kept up to date. Take for instance online user manuals.
+
+61
+00:04:28,720 --> 00:04:35,520
+If a cloud-based application user interface changes, then the accompanying online documentation
+
+62
+00:04:35,520 --> 00:04:42,800
+must be updated accordingly. Businesses need to ensure they allot resources for this step.
+
+63
+00:04:42,800 --> 00:04:48,330
+With regards to the software development and the SDLC, updating documentation happens during
+
+64
+00:04:48,330 --> 00:04:50,520
+the maintenance phase.
+
+65
+00:04:50,520 --> 00:04:57,400
+Ideally, documentation should also be reviewed periodically to ensure its accuracy.
+
+66
+00:04:57,400 --> 00:05:00,470
+In this video you learned that:
+
+67
+00:05:00,470 --> 00:05:05,130
+Documentation comes in three formats: written, video, or graphical.
+
+68
+00:05:05,130 --> 00:05:09,220
+Process documentation describes how to complete a task.
+
+69
+00:05:09,220 --> 00:05:13,120
+Product documentation relates to how a product functions.
+
+70
+00:05:13,120 --> 00:05:18,970
+The types of product documentation include requirements, design, technical, QA, and user.
+
+71
+00:05:18,970 --> 00:05:28,900
+And SOPs are written instructions detailing an organization-specific procedure.
+

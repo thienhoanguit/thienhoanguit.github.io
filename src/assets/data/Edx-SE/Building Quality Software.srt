@@ -1,0 +1,400 @@
+0
+00:00:06,379 --> 00:00:09,450
+Welcome to Building Quality Software.
+
+1
+00:00:09,450 --> 00:00:12,389
+After watching this video, you will be able to:
+
+2
+00:00:12,389 --> 00:00:15,539
+list common software engineering processes and
+
+3
+00:00:15,539 --> 00:00:21,970
+describe the common software engineering processes required for building-high quality software.
+
+4
+00:00:21,970 --> 00:00:26,939
+There are numerous processes that are common to software engineering projects. In this
+
+5
+00:00:26,939 --> 00:00:30,239
+video we will discuss six of them:
+
+6
+00:00:30,239 --> 00:00:31,239
+requirements gathering,
+
+7
+00:00:31,239 --> 00:00:32,239
+design,
+
+8
+00:00:32,239 --> 00:00:33,239
+coding for quality,
+
+9
+00:00:33,239 --> 00:00:34,239
+testing,
+
+10
+00:00:34,239 --> 00:00:35,239
+releases, and
+
+11
+00:00:35,239 --> 00:00:36,820
+documenting.
+
+12
+00:00:36,820 --> 00:00:42,600
+The software requirements specification, or SRS, encompasses the process of collecting
+
+13
+00:00:42,600 --> 00:00:47,500
+and documenting the set of requirements that the software needs to adhere to.
+
+14
+00:00:47,500 --> 00:00:52,460
+It may include a set of use cases that describe the business needs and user flows that the
+
+15
+00:00:52,460 --> 00:00:55,330
+software must implement.
+
+16
+00:00:55,330 --> 00:00:59,410
+Software requirements can be classified into four broad categories:
+
+17
+00:00:59,410 --> 00:01:00,410
+functional,
+
+18
+00:01:00,410 --> 00:01:03,650
+external and User Interface, or UI,
+
+19
+00:01:03,650 --> 00:01:04,650
+system features,
+
+20
+00:01:04,650 --> 00:01:06,490
+and non-functional.
+
+21
+00:01:06,490 --> 00:01:11,730
+These categories are discussed in more detail in another video.
+
+22
+00:01:11,730 --> 00:01:16,499
+Software design is the process of transforming the requirements into a structure that is
+
+23
+00:01:16,499 --> 00:01:18,790
+implementable using code.
+
+24
+00:01:18,790 --> 00:01:23,770
+The software design process translates the requirements into a language the developers
+
+25
+00:01:23,770 --> 00:01:28,830
+can use to write the code. It transforms the requirements into a software solution.
+
+26
+00:01:28,830 --> 00:01:35,090
+The technical lead breaks down requirements into sets of related components with clearly
+
+27
+00:01:35,090 --> 00:01:42,469
+defined behaviors, boundaries, and interactions. These components define the system architecture.
+
+28
+00:01:42,469 --> 00:01:47,960
+The system design incorporates guidance on system functions, performance, security, and
+
+29
+00:01:47,960 --> 00:01:50,119
+platform characteristics.
+
+30
+00:01:50,119 --> 00:01:55,249
+The design communicates business rules and application logic, application programming
+
+31
+00:01:55,249 --> 00:02:01,149
+interface design, which is how apps talk to each other or communicate with the database,
+
+32
+00:02:01,149 --> 00:02:04,979
+user interfaces, and database design.
+
+33
+00:02:04,979 --> 00:02:10,050
+Code quality refers to the characteristics of the code including attributes such as
+
+34
+00:02:10,050 --> 00:02:11,090
+maintainability,
+
+35
+00:02:11,090 --> 00:02:12,130
+readability,
+
+36
+00:02:12,130 --> 00:02:13,170
+testability,
+
+37
+00:02:13,170 --> 00:02:14,970
+and security.
+
+38
+00:02:14,970 --> 00:02:19,900
+Quality code must fulfill the intended requirements of the software without defects.
+
+39
+00:02:19,900 --> 00:02:21,340
+Additionally, it should be
+
+40
+00:02:21,340 --> 00:02:22,970
+clean and consistent,
+
+41
+00:02:22,970 --> 00:02:25,340
+easy to read and maintain,
+
+42
+00:02:25,340 --> 00:02:26,720
+well documented,
+
+43
+00:02:26,720 --> 00:02:28,610
+and efficient.
+
+44
+00:02:28,610 --> 00:02:34,720
+Coding for quality entails following a set of coding practices during development. These
+
+45
+00:02:34,720 --> 00:02:35,720
+include:
+
+46
+00:02:35,720 --> 00:02:39,400
+following common coding standards, conventions, patterns and styles,
+
+47
+00:02:39,400 --> 00:02:45,650
+using automated tools, known as linters, to detect programmatic and stylistic errors, and
+
+48
+00:02:45,650 --> 00:02:52,790
+commenting in the code itself to make it easy for others to understand and modify.
+
+49
+00:02:52,790 --> 00:02:57,750
+Software testing is the process of verifying that the software matches established requirements
+
+50
+00:02:57,750 --> 00:03:00,210
+and is free of bugs.
+
+51
+00:03:00,210 --> 00:03:05,840
+Its purpose is to identify errors, gaps, or missing requirements when compared with stated
+
+52
+00:03:05,840 --> 00:03:07,650
+requirements.
+
+53
+00:03:07,650 --> 00:03:14,400
+Properly tested software ensures reliability, security, performance, and efficiency.
+
+54
+00:03:14,400 --> 00:03:19,320
+Software testing can often be automated or done manually.
+
+55
+00:03:19,320 --> 00:03:24,810
+Levels of testing include unit, integration, system, user acceptance.
+
+56
+00:03:24,810 --> 00:03:29,870
+Unit testing is often done by the developer and tests the smallest component of code that
+
+57
+00:03:29,870 --> 00:03:33,130
+can be isolated from the rest of the system.
+
+58
+00:03:33,130 --> 00:03:38,610
+Once the components are integrated into the larger product, integration testing occurs.
+
+59
+00:03:38,610 --> 00:03:44,730
+Then, after the larger product is deemed completed, system testing can take place.
+
+60
+00:03:44,730 --> 00:03:50,530
+User acceptance testing, or UAT for short and sometimes called beta testing, is when
+
+61
+00:03:50,530 --> 00:03:57,070
+the software is tested by the intended end user. Types of testing can broadly be divided
+
+62
+00:03:57,070 --> 00:04:04,090
+into three categories, functional, non-functional, and regression. Testing levels and types will
+
+63
+00:04:04,090 --> 00:04:07,810
+be further explained in an upcoming video.
+
+64
+00:04:07,810 --> 00:04:13,530
+When the newest version of the software is distributed, it is referred to as a “release.”
+
+65
+00:04:13,530 --> 00:04:17,310
+Different types of releases are intended for different audiences.
+
+66
+00:04:17,310 --> 00:04:23,220
+There is generally an “alpha,” a “beta,” and a “GA” release. GA stands for general
+
+67
+00:04:23,220 --> 00:04:25,110
+availability.
+
+68
+00:04:25,110 --> 00:04:29,610
+The alpha release is the first functioning version of the system released to a select
+
+69
+00:04:29,610 --> 00:04:31,610
+group of stakeholders.
+
+70
+00:04:31,610 --> 00:04:34,000
+The alpha release likely contains errors and
+
+71
+00:04:34,000 --> 00:04:40,160
+may not contain the full feature set but does contain most of the desired functionality.
+
+72
+00:04:40,160 --> 00:04:44,210
+Design changes may still occur during this release stage.
+
+73
+00:04:44,210 --> 00:04:49,860
+The beta release, also called a limited release, is given to the stakeholders outside of the
+
+74
+00:04:49,860 --> 00:04:51,980
+developing organization.
+
+75
+00:04:51,980 --> 00:04:57,410
+One of the intents of the beta release is to try out the software under real conditions,
+
+76
+00:04:57,410 --> 00:05:02,490
+test the functionality, and identify any outstanding bugs or errors.
+
+77
+00:05:02,490 --> 00:05:07,230
+The beta release should meet all the functional requirements.
+
+78
+00:05:07,230 --> 00:05:13,919
+After beta release changes are agreed upon, made, and tested, and a stable version is released.
+
+79
+00:05:13,919 --> 00:05:18,570
+The audience for the GA release is all users.
+
+80
+00:05:18,570 --> 00:05:23,780
+Software documentation should be provided to both non-technical end-users and technical
+
+81
+00:05:23,780 --> 00:05:25,320
+users.
+
+82
+00:05:26,320 --> 00:05:30,860
+System documentation is geared towards the technical user. Technical users may be other
+
+83
+00:05:30,860 --> 00:05:37,510
+engineers, developers, or architects. System documentation explains how the software operates
+
+84
+00:05:37,510 --> 00:05:45,100
+or how to use it. It consists of README files, inline comments, architecture and design documents,
+
+85
+00:05:45,100 --> 00:05:49,319
+verification information, and maintenance guides.
+
+86
+00:05:50,319 --> 00:05:55,020
+User documentation is provided to the non-technical end-users to assist them in the use of the
+
+87
+00:05:55,020 --> 00:06:01,330
+product. Generally, user documentation is provided in the form of user guides, instructional
+
+88
+00:06:01,330 --> 00:06:05,360
+videos and manuals, online help, and inline help.
+
+89
+00:06:06,360 --> 00:06:11,889
+More details about documentation will be discussed in another video.
+
+90
+00:06:11,889 --> 00:06:14,700
+In this video, you learned that:
+
+91
+00:06:14,700 --> 00:06:19,060
+Requirement gathering is collecting and documenting the set of requirements that the software
+
+92
+00:06:19,060 --> 00:06:21,200
+needs to adhere to.
+
+93
+00:06:21,200 --> 00:06:26,430
+Designing transforms requirements into a structure that developers can use.
+
+94
+00:06:26,430 --> 00:06:32,340
+Coding for quality entails following a set of coding practices during development.
+
+95
+00:06:32,340 --> 00:06:37,060
+Testing is the process of verifying that the software matches established requirements
+
+96
+00:06:37,060 --> 00:06:39,490
+and is free of bugs
+
+97
+00:06:39,490 --> 00:06:47,270
+There are three types of releases including: alpha, beta, and general availability. And finally,
+
+98
+00:06:47,270 --> 00:06:53,419
+documenting requires text or video that explains the software to technical and non-technical
+
+99
+00:06:53,419 --> 00:06:56,409
+users.
+

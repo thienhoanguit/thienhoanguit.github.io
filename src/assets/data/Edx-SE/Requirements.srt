@@ -1,0 +1,484 @@
+0
+00:00:06,320 --> 00:00:07,840
+Welcome to Requirements.
+
+1
+00:00:08,560 --> 00:00:11,280
+After watching this video, you will be able to:
+
+2
+00:00:11,840 --> 00:00:14,720
+Describe the steps of the requirement gathering process.
+
+3
+00:00:15,280 --> 00:00:20,000
+Explain the purpose of a User Requirement Specification, or URS, document.
+
+4
+00:00:20,560 --> 00:00:26,160
+Explain the purpose of a Software Requirement Specification, or SRS, document, and
+
+5
+00:00:26,160 --> 00:00:31,120
+Explain the purpose of a System Requirement Specification, or SysRS, document
+
+6
+00:00:32,160 --> 00:00:36,240
+Requirement gathering is a six-step process of defining a problem to
+
+7
+00:00:36,240 --> 00:00:41,680
+be solved and documenting how to go about solving that problem. These steps include:
+
+8
+00:00:41,680 --> 00:00:43,360
+identifying stakeholders,
+
+9
+00:00:43,360 --> 00:00:45,520
+establishing goals and objectives,
+
+10
+00:00:45,520 --> 00:00:48,160
+eliciting requirements from the stakeholders,
+
+11
+00:00:48,160 --> 00:00:50,000
+documenting the requirements,
+
+12
+00:00:50,000 --> 00:00:52,800
+analyzing and confirming the requirements, and
+
+13
+00:00:52,800 --> 00:00:53,840
+prioritizing.
+
+14
+00:00:54,720 --> 00:00:57,600
+Generally, the stakeholders work for the organization that
+
+15
+00:00:57,600 --> 00:01:00,080
+requests the development of the software product.
+
+16
+00:01:00,720 --> 00:01:03,600
+Key personnel from the organization may include
+
+17
+00:01:03,600 --> 00:01:04,640
+decision-makers,
+
+18
+00:01:04,640 --> 00:01:05,520
+end-users,
+
+19
+00:01:05,520 --> 00:01:06,960
+system administrators,
+
+20
+00:01:06,960 --> 00:01:07,840
+engineering,
+
+21
+00:01:07,840 --> 00:01:08,560
+marketing,
+
+22
+00:01:08,560 --> 00:01:09,040
+sales,
+
+23
+00:01:09,040 --> 00:01:10,800
+and customer support personnel.
+
+24
+00:01:11,360 --> 00:01:15,280
+It is good to have a representative from every group that the product affects.
+
+25
+00:01:16,240 --> 00:01:19,440
+The goals of the product should be clearly defined.
+
+26
+00:01:19,440 --> 00:01:22,720
+Goals are broad, long-term achievable outcomes.
+
+27
+00:01:22,720 --> 00:01:26,240
+Goals can include customer outcomes and business goals.
+
+28
+00:01:27,200 --> 00:01:32,160
+Next, objectives should be identified. Objectives are more specific than goals
+
+29
+00:01:32,160 --> 00:01:36,320
+and they are actionable and measurable actions that achieve the stated goals.
+
+30
+00:01:37,120 --> 00:01:39,920
+The next three steps, eliciting, documenting,
+
+31
+00:01:39,920 --> 00:01:43,600
+and requirement confirmation are usually completed iteratively.
+
+32
+00:01:44,160 --> 00:01:46,480
+Elicitation can be accomplished through
+
+33
+00:01:46,480 --> 00:01:47,200
+surveys,
+
+34
+00:01:47,200 --> 00:01:48,080
+questionnaires,
+
+35
+00:01:48,080 --> 00:01:52,000
+and interviews. As the requirements emerge, they should be
+
+36
+00:01:52,000 --> 00:01:54,320
+documented and checked to ensure they
+
+37
+00:01:54,320 --> 00:01:56,400
+align with the goals and objectives.
+
+38
+00:01:56,960 --> 00:02:02,080
+Documented requirements should be easily understood by stakeholders and the project team.
+
+39
+00:02:02,720 --> 00:02:04,720
+In order to confirm the requirements,
+
+40
+00:02:04,720 --> 00:02:07,440
+they should be analyzed to ensure consistency,
+
+41
+00:02:07,440 --> 00:02:08,080
+clarity,
+
+42
+00:02:08,080 --> 00:02:13,200
+and completeness. After analysis, the requirements should be shared with
+
+43
+00:02:13,200 --> 00:02:15,200
+and approved by the stakeholders.
+
+44
+00:02:16,080 --> 00:02:20,800
+After confirmation, requirements should be prioritized. Labels such as
+
+45
+00:02:20,800 --> 00:02:21,520
+“must-have,”
+
+46
+00:02:21,520 --> 00:02:22,560
+“highly desired,”
+
+47
+00:02:22,560 --> 00:02:28,480
+and “nice to have” are helpful. If possible, order the requirements within those categories.
+
+48
+00:02:29,520 --> 00:02:34,320
+Typically, there may be three documents that result from the requirements gathering process:
+
+49
+00:02:34,320 --> 00:02:38,160
+software requirements specification, or SRS,
+
+50
+00:02:38,160 --> 00:02:41,520
+user requirements specification, or URS,
+
+51
+00:02:41,520 --> 00:02:44,400
+and system requirements specification,
+
+52
+00:02:44,400 --> 00:02:50,880
+or SysRS. The most common of these is the software requirements specification.
+
+53
+00:02:50,880 --> 00:02:54,320
+The software requirements specification, or SRS,
+
+54
+00:02:54,320 --> 00:02:58,720
+is a document that captures the functionalities that the software should perform
+
+55
+00:02:58,720 --> 00:03:02,960
+and also establishes benchmarks or service levels for its performance.
+
+56
+00:03:03,680 --> 00:03:05,680
+Parts of an SRS include:
+
+57
+00:03:05,680 --> 00:03:07,440
+A purpose statement that contains
+
+58
+00:03:07,440 --> 00:03:09,600
+the intended use of the SRS,
+
+59
+00:03:09,600 --> 00:03:10,640
+its audience and
+
+60
+00:03:10,640 --> 00:03:11,440
+scope,
+
+61
+00:03:11,440 --> 00:03:14,000
+constraints, assumptions and dependencies, and
+
+62
+00:03:14,720 --> 00:03:17,840
+requirements, which can be sorted into four categories:
+
+63
+00:03:18,400 --> 00:03:19,680
+Functional requirements
+
+64
+00:03:19,680 --> 00:03:21,760
+External Interface requirements
+
+65
+00:03:21,760 --> 00:03:22,640
+System Features
+
+66
+00:03:23,280 --> 00:03:25,600
+Non-functional requirements
+
+67
+00:03:25,600 --> 00:03:27,360
+The product’s purpose describes
+
+68
+00:03:27,360 --> 00:03:30,000
+who will have access to the SRS and
+
+69
+00:03:30,000 --> 00:03:31,600
+how they should use it.
+
+70
+00:03:31,600 --> 00:03:32,720
+The scope describes
+
+71
+00:03:32,720 --> 00:03:34,400
+the benefits of the software,
+
+72
+00:03:34,400 --> 00:03:35,440
+its goals, and
+
+73
+00:03:35,440 --> 00:03:36,160
+objectives.
+
+74
+00:03:37,040 --> 00:03:42,240
+The second part of the SRS should detail constraints, assumptions, and dependencies.
+
+75
+00:03:42,800 --> 00:03:47,520
+Constraints describe how the product must operate under given conditions that may
+
+76
+00:03:47,520 --> 00:03:53,600
+limit options in the design phase such as conformation to standards or hardware limitations.
+
+77
+00:03:54,240 --> 00:03:56,960
+Assumptions may include things like a required
+
+78
+00:03:56,960 --> 00:04:01,040
+operating system or hardware that is needed by the software to function.
+
+79
+00:04:01,600 --> 00:04:05,200
+Dependencies on other software products should also be noted.
+
+80
+00:04:06,080 --> 00:04:09,680
+Requirements can be classified into four categories.
+
+81
+00:04:09,680 --> 00:04:14,320
+Functional requirements are those that cover the functionalities of the software.
+
+82
+00:04:14,320 --> 00:04:18,800
+External requirements are the requirements that address the behavior of the software
+
+83
+00:04:18,800 --> 00:04:25,280
+in relation to external entities such as users and interactions with other hardware or software.
+
+84
+00:04:25,920 --> 00:04:29,680
+System features are a subset of functional requirements.
+
+85
+00:04:29,680 --> 00:04:32,560
+These are required features for the system to function.
+
+86
+00:04:33,200 --> 00:04:37,760
+There are also non-functional requirements such as specifying performance,
+
+87
+00:04:37,760 --> 00:04:40,480
+safety, security, and quality standards.
+
+88
+00:04:41,360 --> 00:04:45,120
+User requirements describe the business need and expectations
+
+89
+00:04:45,120 --> 00:04:48,080
+of the end-users from the software system.
+
+90
+00:04:48,080 --> 00:04:51,600
+The user requirements are written as “user stories” or
+
+91
+00:04:51,600 --> 00:04:54,480
+“use cases” that answer three questions:
+
+92
+00:04:54,480 --> 00:04:55,920
+Who is the user?
+
+93
+00:04:55,920 --> 00:04:58,400
+What is the function that needs to be performed?
+
+94
+00:04:59,040 --> 00:05:01,440
+Why does the user want this functionality?
+
+95
+00:05:02,080 --> 00:05:06,160
+User acceptance testing determines if these requirements have been met.
+
+96
+00:05:06,720 --> 00:05:10,960
+Often though, the user requirements and software requirements are combined
+
+97
+00:05:10,960 --> 00:05:17,600
+into a single SRS document. The SRS details the expectations of the software system.
+
+98
+00:05:18,400 --> 00:05:23,760
+The System Requirement Specification document, or SysRS, to differentiate it from
+
+99
+00:05:23,760 --> 00:05:29,840
+the SRS, clearly outlines the requirements of an entire system. The system requirement
+
+100
+00:05:29,840 --> 00:05:35,200
+specification is often used interchangeably with software requirement specification,
+
+101
+00:05:35,200 --> 00:05:39,440
+but the SysRS is actually broader in scope than the SRS.
+
+102
+00:05:40,160 --> 00:05:44,480
+Many software projects develop an SRS rather than a SysRS.
+
+103
+00:05:45,360 --> 00:05:46,960
+The SysRS contains
+
+104
+00:05:46,960 --> 00:05:48,400
+system capabilities,
+
+105
+00:05:48,400 --> 00:05:52,560
+interfaces, and user characteristics. It also may include
+
+106
+00:05:52,560 --> 00:05:53,920
+policy requirements,
+
+107
+00:05:53,920 --> 00:05:55,280
+regulation requirements,
+
+108
+00:05:55,280 --> 00:05:56,800
+personnel requirements,
+
+109
+00:05:56,800 --> 00:05:58,240
+performance requirements,
+
+110
+00:05:58,240 --> 00:05:59,600
+security requirements,
+
+111
+00:05:59,600 --> 00:06:01,520
+and system acceptance criteria.
+
+112
+00:06:02,160 --> 00:06:06,000
+It also outlines expectations of the hardware needed for the system
+
+113
+00:06:06,000 --> 00:06:08,000
+in addition to software requirements.
+
+114
+00:06:09,440 --> 00:06:11,600
+In this video you learned that:
+
+115
+00:06:11,600 --> 00:06:16,480
+The requirement gathering process entails identifying stakeholders, establishing
+
+116
+00:06:16,480 --> 00:06:22,240
+goals and objectives, and eliciting, documenting, confirming, and then prioritizing requirements.
+
+117
+00:06:23,040 --> 00:06:28,400
+The SRS documents functional, external, system, and non-functional requirements.
+
+118
+00:06:28,960 --> 00:06:31,600
+The URS documents user stories.
+
+119
+00:06:33,040 --> 00:06:37,760
+And finally, the SysRS documents system capabilities and acceptance criteria,
+
+120
+00:06:37,760 --> 00:06:47,840
+and policy, regulation, personnel, performance, security, and hardware requirements.
+

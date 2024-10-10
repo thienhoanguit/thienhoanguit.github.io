@@ -1,0 +1,45 @@
+Welcome to software engineering!
+Are you interested in learning about software engineering?
+Does finding out more about the software building process appeal to you?
+Would you like to get more information about software development?
+Does learning about the basics of programming interest you?
+Would you like to know more about software architecture and design?
+Have you ever wondered what the job prospects are like for a software engineer?
+If so, this course is for you!
+According to the most recent US Bureau of Labor Statistics report about 1,850,000
+software engineer type jobs are posted annually in the US alone,
+and job growth in the industry is projected to increase 22 percent through 2030,
+At the time of this course publication, the median US software developer specialist salary
+is 110,140 US dollars annually, and per hour pay is almost $53 US dollars.
+Software engineering jobs are also a great way to
+start on your path to a high-paying career in information technology.
+This course has three instructors: Rav Ahuja, Bethany Hudnutt, and Lin Joyner.
+Rav is a Global Program Director at IBM and the architect for several IBM Professional
+Certificates. Bethany is an Instructional Designer at Skill-Up Technologies. And,
+Lin is also an Instructional Designer at Skill-Up Technologies.
+So, what’s in this course? It’s divided into five modules:
+The Software Development Lifecycle
+Introduction to Software Development
+Basics of Programming
+Software Architecture, Design, and Patterns
+And Job Opportunities and Skillsets in Software Engineering
+And when you complete this course, you’ll be able to
+Describe software engineering and approaches to software development.
+Identify software development tools and technologies,
+Compare different types of programming languages and recognize basic programming constructs,
+Outline approaches to application and deployment architectures,
+And review the skills required in software
+engineering and describe the career options it provides.
+During this course, you will learn through:
+guided instructional videos that walk you through key concepts, with essential need-to-know facts.
+interactive exercises to reinforce what you’ve learned in videos,
+insider viewpoints that enrich your understanding of IT support work.
+practice assessments to help you gauge your knowledge, and,
+finally, graded assessments to prove what you’ve learned.
+Upon successful completion of this course,
+you’ll earn a shareable badge and certificate that you can show to prospective employers.
+We’re here to support your success.
+If you have any questions for the course staff or
+if you want to connect with your peers in this course,
+Please feel free to post on the course discussion forums.
+We’re excited you’re here. So, let’s get started!

@@ -1,0 +1,440 @@
+0
+00:00:06,399 --> 00:00:09,980
+Welcome Software Development Methodologies.
+
+1
+00:00:09,980 --> 00:00:12,929
+After watching this video, you will be able to
+
+2
+00:00:12,929 --> 00:00:17,720
+list several commonly used approaches to the software development life cycle,
+
+3
+00:00:17,720 --> 00:00:21,970
+explain waterfall, V-shape model, and Agile methods, and
+
+4
+00:00:21,970 --> 00:00:26,480
+compare the pros and cons of each of these three methods.
+
+5
+00:00:26,480 --> 00:00:29,160
+There are many ways to approach software development.
+
+6
+00:00:29,160 --> 00:00:35,230
+A specific methodology for developing software is commonly used in order to assist the development
+
+7
+00:00:35,230 --> 00:00:41,199
+team to clarify communication among team members and determine how and when information is
+
+8
+00:00:41,199 --> 00:00:42,409
+shared.
+
+9
+00:00:42,409 --> 00:00:45,660
+In this video, we will discuss three of these approaches:
+
+10
+00:00:45,660 --> 00:00:46,660
+Waterfall,
+
+11
+00:00:46,660 --> 00:00:47,660
+V-shape model,
+
+12
+00:00:47,660 --> 00:00:49,350
+and Agile.
+
+13
+00:00:49,350 --> 00:00:54,309
+In the beginning, when the SDLC was conceived, it implemented what is known as the
+
+14
+00:00:54,309 --> 00:00:56,530
+waterfall method.
+
+15
+00:00:56,530 --> 00:01:00,619
+Waterfall is a sequential method of software development where the output of one phase
+
+16
+00:01:00,619 --> 00:01:04,229
+is the input for the next phase of the cycle.
+
+17
+00:01:04,229 --> 00:01:08,730
+Development and work on the next phase start only after the completion of the previous
+
+18
+00:01:08,730 --> 00:01:09,770
+phase.
+
+19
+00:01:09,770 --> 00:01:15,640
+All planning, such as defining requirements and architectural design, is done up front.
+
+20
+00:01:15,640 --> 00:01:20,720
+The customer usually does not see the product until it is in the testing phase.
+
+21
+00:01:20,720 --> 00:01:25,260
+For a major version release of the product, the same process is repeated resulting in
+
+22
+00:01:25,260 --> 00:01:29,440
+long intervals, such as years, between releases.
+
+23
+00:01:29,440 --> 00:01:34,520
+The V-shape model is named as such because the phases form the shape of a V.
+
+24
+00:01:34,520 --> 00:01:38,410
+The phases going down the left side of the V are called “verification".
+
+25
+00:01:38,410 --> 00:01:43,870
+Then, going up the right side of the V, those phases are called, "validation."
+
+26
+00:01:43,870 --> 00:01:48,270
+The V-shape model is like waterfall in that it is also sequential.
+
+27
+00:01:48,270 --> 00:01:52,870
+Each phase in verification corresponds with a validation phase.
+
+28
+00:01:52,870 --> 00:01:58,750
+There are four stages that occur on each side of the V. Going down the V are planning, system
+
+29
+00:01:58,750 --> 00:02:02,590
+design, architecture design, and then module design.
+
+30
+00:02:02,590 --> 00:02:05,820
+The bottom of the V is the coding phase.
+
+31
+00:02:05,820 --> 00:02:11,450
+And going back up the V are four phases that correspond to the phases going down the V:
+
+32
+00:02:11,450 --> 00:02:12,520
+unit testing,
+
+33
+00:02:12,520 --> 00:02:13,640
+integration testing,
+
+34
+00:02:13,640 --> 00:02:14,930
+system testing, and
+
+35
+00:02:14,930 --> 00:02:16,690
+acceptance testing.
+
+36
+00:02:16,690 --> 00:02:21,780
+The tests are written during the verification phases on the left and executed during the
+
+37
+00:02:21,780 --> 00:02:24,290
+validation stages on the right.
+
+38
+00:02:24,290 --> 00:02:27,130
+Now, the Agile model is different.
+
+39
+00:02:27,130 --> 00:02:32,680
+It focuses on a collaborative software development process over multiple short cycles rather
+
+40
+00:02:32,680 --> 00:02:36,269
+than a strictly top-down linear process.
+
+41
+00:02:36,269 --> 00:02:39,719
+Agile is what is called an iterative approach to development.
+
+42
+00:02:39,719 --> 00:02:44,060
+It still aligns with the SDLC, but each phase is short.
+
+43
+00:02:44,060 --> 00:02:48,909
+Teams work in cycles, or sprints, which are usually one to four weeks long.
+
+44
+00:02:48,909 --> 00:02:53,530
+Unit testing happens in each sprint to minimize the risk of failure.
+
+45
+00:02:53,530 --> 00:02:57,859
+Rather than the “maintenance” stage of the SDLC, the final stage of the sprint is
+
+46
+00:02:57,859 --> 00:02:59,909
+a feedback stage.
+
+47
+00:02:59,909 --> 00:03:04,709
+At the end of each sprint, a chunk of working code is released at a meeting called the “sprint
+
+48
+00:03:04,709 --> 00:03:09,900
+demo” where stakeholders can see the new functionality and provide feedback.
+
+49
+00:03:09,900 --> 00:03:15,200
+After the sprint demo, the entire process is repeated for every sprint cycle.
+
+50
+00:03:15,200 --> 00:03:20,879
+After several sprint cycles, a minimum viable product, or MVP, is developed so stakeholders
+
+51
+00:03:20,879 --> 00:03:24,680
+can provide feedback on the basic feature set.
+
+52
+00:03:24,680 --> 00:03:29,389
+The MVP contains a feature set to validate assumptions about the software.
+
+53
+00:03:29,389 --> 00:03:35,930
+The four core values of Agile development outlined in what is known as the "Agile manifesto"
+
+54
+00:03:35,930 --> 00:03:36,930
+are:
+
+55
+00:03:36,930 --> 00:03:41,309
+individuals and interactions over processes and tools
+
+56
+00:03:41,309 --> 00:03:44,809
+working software over comprehensive documentation
+
+57
+00:03:44,809 --> 00:03:48,840
+customer collaboration over contract negotiation, and
+
+58
+00:03:48,840 --> 00:03:52,579
+responding to change over following a plan.
+
+59
+00:03:52,579 --> 00:03:56,459
+The main difference between traditional SDLC methods such as
+
+60
+00:03:56,459 --> 00:03:59,469
+waterfall and the v-shape model compared to the
+
+61
+00:03:59,469 --> 00:04:04,209
+Agile method of software development is the former are sequential whereas
+
+62
+00:04:04,209 --> 00:04:06,249
+Agile is cyclical.
+
+63
+00:04:06,249 --> 00:04:11,599
+Traditional SDLC methods, such as waterfall and V-shape, center around the whole product
+
+64
+00:04:11,599 --> 00:04:15,889
+being developed before soliciting customer feedback, whereas
+
+65
+00:04:15,889 --> 00:04:19,980
+Agile focuses on quick, short bursts of development.
+
+66
+00:04:19,980 --> 00:04:20,980
+There are pros and
+
+67
+00:04:20,980 --> 00:04:26,289
+cons to each method, though Agile is probably the most popular method used in modern software
+
+68
+00:04:26,289 --> 00:04:27,550
+development.
+
+69
+00:04:27,550 --> 00:04:32,880
+Regarding the pros of the waterfall method, it is easy to understand and follow.
+
+70
+00:04:32,880 --> 00:04:38,160
+Each stage is discrete and well-defined, making it easy for all team members to understand
+
+71
+00:04:38,160 --> 00:04:39,430
+their roles.
+
+72
+00:04:39,430 --> 00:04:44,629
+Also, since planning is done upfront, it is easier than iterative methods to estimate
+
+73
+00:04:44,629 --> 00:04:47,850
+a budget and allocate resources.
+
+74
+00:04:47,850 --> 00:04:51,060
+That said, waterfall lacks flexibility.
+
+75
+00:04:51,060 --> 00:04:56,780
+Since all planning is done upfront if a requirement is changed or overlooked that change can be
+
+76
+00:04:56,780 --> 00:04:59,580
+hard to incorporate at a later date.
+
+77
+00:04:59,580 --> 00:05:05,060
+Inevitably, unforeseen complications happen, or agreed upon functionality shifts from what
+
+78
+00:05:05,060 --> 00:05:07,659
+was initially envisioned.
+
+79
+00:05:07,659 --> 00:05:11,990
+Like waterfall, the V-shape model is simple and easy to use.
+
+80
+00:05:11,990 --> 00:05:14,150
+It is even more rigid than waterfall but
+
+81
+00:05:14,150 --> 00:05:19,580
+designing test plans during the verification phase saves considerable time during coding
+
+82
+00:05:19,580 --> 00:05:21,919
+and validation phases.
+
+83
+00:05:21,919 --> 00:05:24,599
+Drawbacks are also similar to waterfall because it
+
+84
+00:05:24,599 --> 00:05:28,099
+does not readily accommodate changing requirements.
+
+85
+00:05:28,099 --> 00:05:34,680
+Once an application is in the testing phase it is extremely difficult to go back and change
+
+86
+00:05:34,680 --> 00:05:35,680
+functionality.
+
+87
+00:05:35,680 --> 00:05:40,840
+Agile development is different, relying on ongoing research, planning, and testing during
+
+88
+00:05:40,840 --> 00:05:42,689
+product development.
+
+89
+00:05:42,689 --> 00:05:48,470
+When adding new features to a project, development still goes through the same phases as in traditional
+
+90
+00:05:48,470 --> 00:05:49,650
+SDLC,
+
+91
+00:05:49,650 --> 00:05:55,460
+but with Agile, new, and changing requirements are handled quickly and easily because planning
+
+92
+00:05:55,460 --> 00:05:59,389
+is initiated at the beginning of each sprint cycle.
+
+93
+00:05:59,389 --> 00:06:03,139
+Most resources are spent on the building phase.
+
+94
+00:06:03,139 --> 00:06:08,530
+At the end of each cycle, the QA team, stakeholders, and the customer have some piece of working
+
+95
+00:06:08,530 --> 00:06:13,750
+code to test against requirements and are encouraged to provide feedback.
+
+96
+00:06:13,750 --> 00:06:18,490
+As coding languages and technologies have developed in recent years, they now allow
+
+97
+00:06:18,490 --> 00:06:23,849
+for modular design, where developers can focus on smaller chunks of code that are readily
+
+98
+00:06:23,849 --> 00:06:26,969
+integrated into the larger product.
+
+99
+00:06:26,969 --> 00:06:30,990
+These small chunks can be released to provide the MVP.
+
+100
+00:06:30,990 --> 00:06:36,530
+Cons of Agile are that upfront planning such as budgeting and scheduling can be challenging
+
+101
+00:06:36,530 --> 00:06:37,530
+because the
+
+102
+00:06:37,530 --> 00:06:42,039
+overall scope of the product is not clearly defined.
+
+103
+00:06:42,039 --> 00:06:44,389
+In this video, you learned that:
+
+104
+00:06:44,389 --> 00:06:49,730
+Three of the common approaches to software development include waterfall, V-shape model,
+
+105
+00:06:49,730 --> 00:06:50,909
+and Agile
+
+106
+00:06:50,909 --> 00:06:55,849
+waterfall and V-shape are sequential whereas Agile is iterative
+
+107
+00:06:55,849 --> 00:07:01,110
+both waterfall and V-shape models are easy to implement but neither accommodates changing
+
+108
+00:07:01,110 --> 00:07:03,180
+requirements well and
+
+109
+00:07:03,180 --> 00:07:11,220
+Agile allows for changing requirements but resource allocation can be challenging.
+

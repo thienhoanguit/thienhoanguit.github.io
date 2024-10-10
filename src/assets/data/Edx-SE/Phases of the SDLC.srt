@@ -1,0 +1,396 @@
+0
+00:00:06,430 --> 00:00:10,450
+Welcome to the Phases of the Software Development Life Cycle.
+
+1
+00:00:10,450 --> 00:00:13,690
+After watching this video, you will be able to
+
+2
+00:00:13,690 --> 00:00:17,199
+name the phases involved in the SDLC,
+
+3
+00:00:17,199 --> 00:00:19,039
+describe each phase, and
+
+4
+00:00:19,039 --> 00:00:22,960
+identify several tasks associated with each phase.
+
+5
+00:00:22,960 --> 00:00:26,640
+There are generally six phases in the SDLC process,
+
+6
+00:00:26,640 --> 00:00:32,050
+planning, design, development, testing, deployment, and maintenance.
+
+7
+00:00:32,050 --> 00:00:37,340
+Each phase is discrete meaning that tasks from a previous phase do not overlap with
+
+8
+00:00:37,340 --> 00:00:39,710
+tasks in the next phase.
+
+9
+00:00:39,710 --> 00:00:45,660
+The original SDLC was conceived as a traditional waterfall method where the phases were linear,
+
+10
+00:00:45,660 --> 00:00:52,700
+but have since been adapted to introduce iteration so that shifting requirements can be accommodated.
+
+11
+00:00:52,700 --> 00:00:57,950
+Waterfall and other approaches to software development will be discussed in another video.
+
+12
+00:00:57,950 --> 00:01:02,480
+Note that some organizations may have different names for each stage.
+
+13
+00:01:02,480 --> 00:01:07,659
+For example, “planning” may be called “requirements” or “strategy” or “analysis”.
+
+14
+00:01:07,659 --> 00:01:13,070
+Also, some organizations may have additional or fewer stages.
+
+15
+00:01:13,070 --> 00:01:19,380
+In the first stage of the SDLC, the planning phase, requirements are gathered, analyzed,
+
+16
+00:01:19,380 --> 00:01:21,729
+documented and prioritized.
+
+17
+00:01:21,729 --> 00:01:26,510
+When planning a software solution, the following factors must be considered:
+
+18
+00:01:26,510 --> 00:01:27,620
+users of the solution
+
+19
+00:01:27,620 --> 00:01:30,100
+the overall purpose of the solution,
+
+20
+00:01:30,100 --> 00:01:32,260
+data inputs and outputs,
+
+21
+00:01:32,260 --> 00:01:34,910
+legal and regulatory compliance,
+
+22
+00:01:34,910 --> 00:01:36,400
+risk identification,
+
+23
+00:01:36,400 --> 00:01:38,490
+quality assurance requirements,
+
+24
+00:01:38,490 --> 00:01:42,670
+allocation of human and financial resources, and
+
+25
+00:01:42,670 --> 00:01:44,390
+project scheduling.
+
+26
+00:01:44,390 --> 00:01:46,380
+As part of the planning process,
+
+27
+00:01:46,380 --> 00:01:49,200
+labor and material costs are estimated and
+
+28
+00:01:49,200 --> 00:01:50,710
+weighed against time constraints.
+
+29
+00:01:50,710 --> 00:01:57,159
+Also, project teams are identified, and roles of each team member are proposed.
+
+30
+00:01:57,159 --> 00:02:02,810
+If stakeholders are struggling to define requirements, often the development team may produce prototypes
+
+31
+00:02:02,810 --> 00:02:06,420
+during the planning stage to tease out those requirements.
+
+32
+00:02:06,420 --> 00:02:12,310
+A prototype is a small-scale replica of the end product used to get stakeholder feedback
+
+33
+00:02:12,310 --> 00:02:14,580
+and establish requirements.
+
+34
+00:02:14,580 --> 00:02:18,030
+A prototype is used to test basic design ideas.
+
+35
+00:02:18,030 --> 00:02:23,829
+Though prototyping usually occurs during the planning stage, prototyping can occur at various
+
+36
+00:02:23,829 --> 00:02:30,519
+phases of the SDLC whenever requirements need to be reconsidered or clarified as the project
+
+37
+00:02:30,519 --> 00:02:31,650
+develops.
+
+38
+00:02:31,650 --> 00:02:36,140
+After requirements have been gathered, they are combined into a document called a
+
+39
+00:02:36,140 --> 00:02:40,470
+software requirements specification, or SRS, document.
+
+40
+00:02:40,470 --> 00:02:45,829
+The SRS needs to be clearly understood and approved by all stakeholders.
+
+41
+00:02:45,829 --> 00:02:50,650
+The developers are also involved at this stage so they can gain a clear understanding of
+
+42
+00:02:50,650 --> 00:02:53,120
+these requirements.
+
+43
+00:02:53,120 --> 00:02:58,739
+Requirements and the SRS will be discussed in more detail in a later video.
+
+44
+00:02:58,739 --> 00:03:00,609
+In the design phase, the requirements
+
+45
+00:03:00,609 --> 00:03:05,519
+gathered from the SRS are used to develop the software architecture.
+
+46
+00:03:05,519 --> 00:03:09,989
+Several team members work together at this stage to design the architecture.
+
+47
+00:03:09,989 --> 00:03:13,629
+The architecture is reviewed by the stakeholders and team.
+
+48
+00:03:13,629 --> 00:03:16,670
+During this phase, prototypes can be designed.
+
+49
+00:03:16,670 --> 00:03:22,709
+A prototype is a preliminary mock-up of the system, or parts of the system, used for demonstration
+
+50
+00:03:22,709 --> 00:03:23,819
+purposes.
+
+51
+00:03:23,819 --> 00:03:29,159
+The document created in this phase is called a design document, and is used by developers
+
+52
+00:03:29,159 --> 00:03:33,049
+during the next phase, which is the development phase.
+
+53
+00:03:33,049 --> 00:03:37,790
+The development phase, sometimes called the “building" phase or the "implementation"
+
+54
+00:03:37,790 --> 00:03:43,459
+phase, is when the developers start the coding process once the design document is completed.
+
+55
+00:03:43,459 --> 00:03:49,470
+The project planners use the design document to determine and assign coding tasks.
+
+56
+00:03:49,470 --> 00:03:55,060
+This phase often requires the use of programming tools, different programming languages, and
+
+57
+00:03:55,060 --> 00:03:56,939
+software stacks.
+
+58
+00:03:56,939 --> 00:04:01,459
+Organizations may also have standards or guidelines that need to be followed.
+
+59
+00:04:01,459 --> 00:04:06,119
+The testing phase is next in the process once the coding is complete.
+
+60
+00:04:06,119 --> 00:04:10,059
+Some large projects have dedicated testing teams.
+
+61
+00:04:10,059 --> 00:04:15,400
+Code needs to be thoroughly tested to ensure it is stable, secure, and meets the requirements
+
+62
+00:04:15,400 --> 00:04:18,060
+outlined in the SRS.
+
+63
+00:04:18,060 --> 00:04:22,550
+Testing can be manual, automated, or a hybrid of both.
+
+64
+00:04:22,550 --> 00:04:28,550
+Product bugs are reported, tracked, and fixed, and code is retested until the software is
+
+65
+00:04:28,550 --> 00:04:29,550
+stable.
+
+66
+00:04:29,550 --> 00:04:31,440
+Some common levels of testing include
+
+67
+00:04:31,440 --> 00:04:32,620
+unit testing,
+
+68
+00:04:32,620 --> 00:04:33,940
+integration testing,
+
+69
+00:04:33,940 --> 00:04:35,220
+system testing, and
+
+70
+00:04:35,220 --> 00:04:37,080
+acceptance testing.
+
+71
+00:04:37,080 --> 00:04:43,159
+Each of these testing levels will be described in further detail in another video.
+
+72
+00:04:43,159 --> 00:04:47,650
+The deployment phase is where the application is released into the production environment
+
+73
+00:04:47,650 --> 00:04:49,940
+and made available to users.
+
+74
+00:04:49,940 --> 00:04:52,400
+This can also happen in stages—
+
+75
+00:04:52,400 --> 00:04:59,039
+first, it is released onto a user acceptance testing, also called UAT, platform and once
+
+76
+00:04:59,039 --> 00:05:01,819
+the customer signs off on the functionality,
+
+77
+00:05:01,819 --> 00:05:04,220
+it is released to production.
+
+78
+00:05:04,220 --> 00:05:09,319
+This approach can be used for making software available on a website, mobile device app
+
+79
+00:05:09,319 --> 00:05:14,400
+store, or a software distribution server on a corporate network.
+
+80
+00:05:14,400 --> 00:05:19,979
+The maintenance phase happens once the code has been deployed into a production environment.
+
+81
+00:05:19,979 --> 00:05:20,979
+This phase helps to
+
+82
+00:05:20,979 --> 00:05:22,750
+find any other bugs,
+
+83
+00:05:22,750 --> 00:05:26,509
+identify user interface issues, or UI for short, and
+
+84
+00:05:26,509 --> 00:05:31,889
+identify other requirements that may not have been listed in the SRS.
+
+85
+00:05:31,889 --> 00:05:35,780
+Code enhancements can also be identified at this stage.
+
+86
+00:05:35,780 --> 00:05:40,510
+If bugs are discovered in this phase that were missed during testing, these errors may
+
+87
+00:05:40,510 --> 00:05:46,110
+need to be fixed for high-priority issues or incorporated into the requirements as part
+
+88
+00:05:46,110 --> 00:05:51,590
+of a future software release and the process can start over again.
+
+89
+00:05:51,590 --> 00:05:54,689
+In this video, you learned that
+
+90
+00:05:54,689 --> 00:06:00,771
+The SDLC can be divided into six phases,.Planning involves requirement gathering and development
+
+91
+00:06:00,771 --> 00:06:02,470
+of the SRS.
+
+92
+00:06:02,470 --> 00:06:08,069
+The architecture is developed during the design phase and the design document is created.
+
+93
+00:06:08,069 --> 00:06:11,560
+The Development phase is when coding takes place, and then
+
+94
+00:06:11,560 --> 00:06:17,379
+during the testing phase issues with the code are found and fixed if possible.
+
+95
+00:06:17,379 --> 00:06:20,669
+Deployment is when the code is released to the production environment.
+
+96
+00:06:20,669 --> 00:06:26,480
+Finally, in the maintenance stage feedback is collected from stakeholders, other UI issues
+
+97
+00:06:26,480 --> 00:06:30,689
+may be identified, and code enhancements suggested.
+
+98
+00:06:30,689 --> 00:06:38,780
+This information then can be fed into another software development cycle if necessary.
+
