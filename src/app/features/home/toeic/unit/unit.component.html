@@ -13,7 +13,7 @@
                 <div class="col-12">
                     <div *ngIf="selectedUnit">
                         <h5 class="mb-2">Unit {{ selectedUnit.Unit }}</h5>
-						<iframe [src]="selectedUnit.Part2.Src" width="324" height="150"></iframe>
+						<iframe [cachedSrc]="selectedUnit.Part2.Src" width="324" height="150"></iframe>
 
                         <form *ngIf="!practiceData[selectedUnit.Unit - 1].showResults" class="flex flex-column mb-2">
                             <div *ngFor="let quiz of selectedUnit.Part2.Quiz; let i = index"
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-12">
                     <h5 class="mb-2">Final test</h5>
-					<iframe [src]="unitData.Test.Src2" width="324" height="150"></iframe>
+					<iframe [cachedSrc]="unitData.Test.Src2" width="324" height="150"></iframe>
                     
                     <form *ngIf="!testData.showResults" class="flex flex-column mb-2">
                         <div *ngFor="let quiz of unitData.Test.Quiz; let i = index"
@@ -118,12 +118,12 @@
                         placeholder="Chọn bài" />
                     <div *ngIf="selectedUnitPart3">
                         <h5 class="mb-2">Unit {{ selectedUnitPart3.Unit }}</h5>
-						<iframe [src]="selectedUnitPart3.Part3.Src" width="324" height="150"></iframe>
+						<iframe [cachedSrc]="selectedUnitPart3.Part3.Src" width="324" height="150"></iframe>
                     </div>
                 </div>
                 <div class="col-12">
                     <h5 class="mb-2">Final test</h5>
-					<iframe [src]="unitData.Test.Src3" width="324" height="150"></iframe>
+					<iframe [cachedSrc]="unitData.Test.Src3" width="324" height="150"></iframe>
                 </div>
             </p-accordionTab>
             <p-accordionTab header="Phần 4">
@@ -133,12 +133,12 @@
                         placeholder="Chọn bài" />
                     <div *ngIf="selectedUnitPart4">
                         <h5 class="mb-2">Unit {{ selectedUnitPart4.Unit }}</h5>
-						<iframe [src]="selectedUnitPart4.Part4.Src" width="324" height="150"></iframe>
+						<iframe [cachedSrc]="selectedUnitPart4.Part4.Src" width="324" height="150"></iframe>
                     </div>
                 </div>
                 <div class="col-12">
                     <h5 class="mb-2">Final test</h5>
-					<iframe [src]="unitData.Test.Src4" width="324" height="150"></iframe>
+					<iframe [cachedSrc]="unitData.Test.Src4" width="324" height="150"></iframe>
                 </div>
             </p-accordionTab>
         </p-accordion>
