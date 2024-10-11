@@ -13,7 +13,7 @@ import { DropdownModule } from 'primeng/dropdown';
 const PRIMENG_MODULES = [AccordionModule, RadioButtonModule, DividerModule, ButtonModule, DropdownModule ];
 
 @NgModule({
-  declarations: [ToeicComponent, UnitComponent],
+  declarations: [ToeicComponent, UnitComponent, CachedSrcDirective],
   imports: [CommonModule, ToeicRoutingModule, FormsModule, ...PRIMENG_MODULES],
   providers: [
   ],
