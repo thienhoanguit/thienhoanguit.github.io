@@ -31,13 +31,8 @@ export class AuthService {
   }
 
   constructor(
-		// private readonly _firebaseDbService: FirebaseDbService,
     private readonly _firestoreService: FirestoreService
-    ) {
-    // this._firebaseDbService.getData('ls/users').subscribe(data => {
-    //      this.users = data ? Object.values(data) : [];
-    //       });
-  
+    ) {  
     try {
       const user = JSON.parse(String(localStorage.getItem('user')));
       if (user) {
@@ -54,6 +49,7 @@ export class AuthService {
     
     //checkuser
     let exist = await this._firestoreService.filterDocumentByField(this.userColName, 'email', user.email.toLocaleLowerCase());// this.users.find(_ => _.email == user.email);
+    console.log('Exsist: ', exist);
     if (!exist || !exist.isActive) {
       if (!exist) {
         user.email = user.email.toLocaleLowerCase();

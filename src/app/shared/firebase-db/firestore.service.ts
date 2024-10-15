@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Firestore, collection, doc, setDoc, updateDoc, deleteDoc, getDocs, query, where, DocumentData } from '@angular/fire/firestore';
 import { collectionData } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
+import { FilterModel } from './filter.model';
 
 @Injectable({
   providedIn: 'root'
@@ -50,9 +51,31 @@ export class FirestoreService {
     const querySnapshot = await getDocs(q);
     // Chỉ trả về đối tượng đầu tiên (nếu tồn tại)
     if (querySnapshot.docs.length > 0) {
-      return querySnapshot.docs[0].data();
+      let d = querySnapshot.docs[0];
+      let data = d.data();
+      data['id'] = d.id;
+      console.log('d: ', d);
+      console.log('data: ', data);
+      return data;
     } else {
       return null; // Nếu không tìm thấy đối tượng
     }
+  }
+
+  async query(collectionName: string, filters?: FilterModel[]): Promise<any[]> {
+    const collectionRef = collection(this.firestore, collectionName);
+    let q = query(collectionRef);
+    if ((filters ?? []).length > 0) {
+      for (let index = 0; index < (filters ?? []).length; index++) {
+        const element = (filters ?? [])[index];
+        q = query(q, where(element.fieldName, element.opStr, element.value))
+      }
+    }
+    const querySnapshot = await getDocs(q);
+    return querySnapshot.docs.map(doc => doc.data());
+  }
+
+  async queryFirst(collectionName: string, filters?: FilterModel[]): Promise<any> {
+    return this.query(collectionName, filters).then(_ => _[0]);
   }
 }

@@ -27,9 +27,9 @@ export class HomeComponent {
 				routerLink: '/toeic'
 			},
 			{
-				label: 'Edx',
-				icon: 'pi pi-home',
-				routerLink: '/edx'
+				label: 'Ghi chú',
+				icon: 'pi pi-pen-to-square',
+				routerLink: '/note'
 			},
 			{
 				label: 'Admin',

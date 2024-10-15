@@ -1,1 +1,9 @@
-<router-outlet></router-outlet>
+<div class="grid">
+	<div class="col-12">
+		<p-menubar [model]="items">
+            <p-button icon="pi pi-sign-out" (onClick)="loginWithGoogle()" 
+                label="Đăng nhập" />
+		</p-menubar>
+	</div>
+	<div class="col-12 px-3 py-3"><router-outlet></router-outlet></div>
+</div>

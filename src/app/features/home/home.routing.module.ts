@@ -19,6 +19,10 @@ const routes: Routes = [
 				loadChildren: () => import('./edx/edx.module').then((m) => m.EdxModule),
 			},
 			{
+				path: 'note',
+				loadChildren: () => import('./note/note.module').then((m) => m.NoteModule),
+			},
+			{
 				path: 'data-hub',
 				loadChildren: () => import('./data-crud/data-crud.module').then((m) => m.DataCrudModule),
 			},

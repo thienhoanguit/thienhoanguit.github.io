@@ -4,4 +4,5 @@ export interface User {
 	photoURL: string;
 	role: string[];
 	isActive: boolean;
+	id: string;
 }

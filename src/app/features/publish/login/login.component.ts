@@ -36,7 +36,8 @@ export class LoginComponent {
 				displayName: user.displayName ?? '',
 				email: user.email ?? '',
 				isActive: false,
-				role: ['user']
+				role: ['user'],
+				id: ''
 			}, {
 				accessToken: credential?.accessToken ?? '',
 				idToken: credential?.idToken ?? ''
