@@ -4,7 +4,7 @@
         {
             "Unit": 1,
             "Part2": {
-                "Src": "assets/analyst-toeic/06 6.wma",
+                "Src": "assets/data/4.Analyst_Toeic/06_6.mp3",
                 "Quiz": [
                     {
                         "Question": "Whom did you get that message from?",
@@ -39,7 +39,7 @@
         {
             "Unit": 2,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1foEBJ6TUuFOQkjkHJ97FbgxcD4qtmrK0/preview",
+                "Src": "assets/data/4.Analyst_Toeic/07-7.mp3",
                 "Quiz": [
                     {
                         "Question": "When did you get up this morning?",
@@ -74,7 +74,7 @@
         {
             "Unit": 3,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1IWe6zTbiLwBSs2TwBFEwHsbNa1Bu28xh/preview",
+                "Src": "assets/data/4.Analyst_Toeic/08-8.mp3",
                 "Quiz": [
                     {
                         "Question": "Where is a shoe store near here?",
@@ -109,7 +109,7 @@
         {
             "Unit": 4,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1jGFbUS0ItDBoxClqDd6ikaOpyYGDVbrs/preview",
+                "Src": "assets/data/4.Analyst_Toeic/09 9.mp3",
                 "Quiz": [
                     {
                         "Question": "What time does the movie start?",
@@ -144,7 +144,7 @@
         {
             "Unit": 5,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1C50pJmc6h8woCB2XENqCED5b3qagzPHn/preview",
+                "Src": "assets/data/4.Analyst_Toeic/10 10.mp3",
                 "Quiz": [
                     {
                         "Question": "How would you like your coffee?",
@@ -179,7 +179,7 @@
         {
             "Unit": 6,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1hRMjle0tM8NEmicM0UW2uvr1aEgm-4Tf/preview",
+                "Src": "assets/data/4.Analyst_Toeic/11 11.mp3",
                 "Quiz": [
                     {
                         "Question": "Why do you think he didn't support our plan?",
@@ -214,7 +214,7 @@
         {
             "Unit": 7,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1Uk2wqqAIE6dzcG-fF7R98FA8EFaeKPhK/preview",
+                "Src": "assets/data/4.Analyst_Toeic/12 12.mp3",
                 "Quiz": [
                     {
                         "Question": "Didn't you go to the book fair?",
@@ -249,7 +249,7 @@
         {
             "Unit": 8,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/1IghdalAPniDZCRoXUVoXugQhXQNmTZ9c/preview",
+                "Src": "assets/data/4.Analyst_Toeic/13 13.mp3",
                 "Quiz": [
                     {
                         "Question": "Are you going to buy a new computer or just continue using the old one?",
@@ -284,7 +284,7 @@
         {
             "Unit": 9,
             "Part2": {
-                "Src": "https://drive.google.com/file/d/13NVC73M0riamAnEK7TQPctcq2GCmzW3h/preview",
+                "Src": "assets/data/4.Analyst_Toeic/14 14.mp3",
                 "Quiz": [
                     {
                         "Question": "I've put the accounting files on your desk.",
@@ -315,180 +315,10 @@
                     }
                 ]
             }
-        },
-        {
-            "Unit": 10,
-            "Part2": {
-                "Src": "",
-                "Quiz": [
-                    {
-                        "Question": "How long has he been gone?",
-                        "Answers": [
-                            "Until tomorrow.",
-                            "For half an hour.",
-                            "Next week."
-                        ],
-                        "CorrectAnswer": "For half an hour."
-                    },
-                    {
-                        "Question": "I'm afraid I can't hear you.",
-                        "Answers": [
-                            "I'm sorry. I'll speak louder.",
-                            "Yes, I can come up now.",
-                            "I really can't say."
-                        ],
-                        "CorrectAnswer": "I'm sorry. I'll speak louder."
-                    },
-                    {
-                        "Question": "Would you like to go now?",
-                        "Answers": [
-                            "In a few minutes.",
-                            "I go there every day.",
-                            "I usually go by taxi."
-                        ],
-                        "CorrectAnswer": "In a few minutes."
-                    },
-                    {
-                        "Question": "How often do they update the computers?",
-                        "Answers": [
-                            "Yes, they often do.",
-                            "Two or three times a year.",
-                            "About one or two weeks."
-                        ],
-                        "CorrectAnswer": "Two or three times a year."
-                    },
-                    {
-                        "Question": "Why did you turn the air conditioner on?",
-                        "Answers": [
-                            "It isn't working very well.",
-                            "It's in good condition.",
-                            "It's a little warm in here."
-                        ],
-                        "CorrectAnswer": "It's a little warm in here."
-                    },
-                    {
-                        "Question": "Didn't you used to work at Macy's with Sarah Davis?",
-                        "Answers": [
-                            "When do we begin work?",
-                            "Yes, that's right.",
-                            "I certainly do."
-                        ],
-                        "CorrectAnswer": "Yes, that's right."
-                    },
-                    {
-                        "Question": "Who is responsible for this?",
-                        "Answers": [
-                            "I don't have it.",
-                            "I believe Susan is.",
-                            "No, I'm not."
-                        ],
-                        "CorrectAnswer": "I believe Susan is."
-                    },
-                    {
-                        "Question": "I have a bit of a cold.",
-                        "Answers": [
-                            "It's nearly spring.",
-                            "You should take it easy.",
-                            "That's a wonderful idea."
-                        ],
-                        "CorrectAnswer": "You should take it easy."
-                    },
-                    {
-                        "Question": "Whose briefcase is this?",
-                        "Answers": [
-                            "It's my boss's.",
-                            "They're probably lost.",
-                            "His luggage is full."
-                        ],
-                        "CorrectAnswer": "It's my boss's."
-                    },
-                    {
-                        "Question": "Would you like tea or coffee?",
-                        "Answers": [
-                            "It's fine, thanks.",
-                            "Yes, please.",
-                            "Coffee would be nice."
-                        ],
-                        "CorrectAnswer": "Coffee would be nice."
-                    },
-                    {
-                        "Question": "How many stories tall is that building?",
-                        "Answers": [
-                            "About thirty-five.",
-                            "I read it already.",
-                            "Yes, it's quite high."
-                        ],
-                        "CorrectAnswer": "About thirty-five."
-                    },
-                    {
-                        "Question": "Did he fill out the form completely?",
-                        "Answers": [
-                            "He forgot to sign and date it.",
-                            "Once in a while it loses its shape.",
-                            "Could I borrow your pen?"
-                        ],
-                        "CorrectAnswer": "He forgot to sign and date it."
-                    },
-                    {
-                        "Question": "If you don't answer the letter, who will?",
-                        "Answers": [
-                            "My assistant will.",
-                            "Because I don't want to.",
-                            "The answer is wrong."
-                        ],
-                        "CorrectAnswer": "My assistant will."
-                    },
-                    {
-                        "Question": "When does the sale finish?",
-                        "Answers": [
-                            "Yes, it has finished.",
-                            "Office equipment is on sale.",
-                            "It runs until next Friday."
-                        ],
-                        "CorrectAnswer": "It runs until next Friday."
-                    },
-                    {
-                        "Question": "Could you open these desk drawers for me?",
-                        "Answers": [
-                            "I can't. They're stuck.",
-                            "Sure, you can close them.",
-                            "It opens at four o'clock."
-                        ],
-                        "CorrectAnswer": "I can't. They're stuck."
-                    },
-                    {
-                        "Question": "When does your subscription expire?",
-                        "Answers": [
-                            "In March.",
-                            "For one year.",
-                            "Twice a week."
-                        ],
-                        "CorrectAnswer": "In March."
-                    },
-                    {
-                        "Question": "When do you want to discuss my memo?",
-                        "Answers": [
-                            "No, but I'll finish it by tomorrow.",
-                            "I need to write several more pages.",
-                            "How about this afternoon?"
-                        ],
-                        "CorrectAnswer": "How about this afternoon?"
-                    },
-                    {
-                        "Question": "Where is Brian Ivan's desk?",
-                        "Answers": [
-                            "It's at seven-fifty.",
-                            "It's over there, by the window.",
-                            "Certainly, just a moment."
-                        ],
-                        "CorrectAnswer": "It's over there, by the window."
-                    }
-                ]
-            }
         }
     ],
     "Test": {
-        "Src2": "https://drive.google.com/file/d/118TPp15HLfQ0g1CTjB8OeQypibTTByJY/preview",
+        "Src2": "assets/data/4.Analyst_Toeic/15 15.mp3",
         "Quiz": [
             {
                 "Question": "How long has he been gone?",

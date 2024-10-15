@@ -21,7 +21,7 @@
 
                         <form *ngIf="!practiceData[selectedUnit.Unit - 1].showResults" class="flex flex-column mb-2">
                             <div *ngFor="let quiz of selectedUnit.Part2.Quiz; let i = index"
-                                class="flex justify-content-between">
+                                class="flex justify-content-between mb-4">
                                 <span>{{ i + 1 }}.</span>
                                 <label>
                                     <input type="radio" [(ngModel)]="practiceData[selectedUnit.Unit - 1].userAnswers[i]"
@@ -73,7 +73,7 @@
                     </audio>
                     <form *ngIf="!testData.showResults" class="flex flex-column mb-2">
                         <div *ngFor="let quiz of unitData.Test.Quiz; let i = index"
-                            class="flex justify-content-between">
+                            class="flex justify-content-between mb-3">
                             <span>{{ i + 1 }}.</span>
                             <label>
                                 <input type="radio" [(ngModel)]="testData.userAnswers[i]"
