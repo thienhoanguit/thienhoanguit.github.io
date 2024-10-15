@@ -106,4 +106,18 @@ export class UnitComponent {
 		this.testData.totalScore = 0;
 	}
 
+	onUnitChange(part: number) {
+		if (part == 2) {
+			let a = this.audioPlayerPart2.nativeElement;
+			a.load();
+		} else if(part == 3) {
+			let a = this.audioPlayerPart3.nativeElement;
+			a.load();
+			
+		} else {
+			let a = this.audioPlayerPart4.nativeElement;
+			a.load();
+			
+		}
+	}
 }

@@ -8,12 +8,16 @@
                 <div class="col-12">
                     <label>Chọn bài: </label>
                     <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnit" optionLabel="Unit"
+                    (onChange)="onUnitChange(2)"
                         placeholder="Chọn bài" />
                 </div>
                 <div class="col-12">
                     <div *ngIf="selectedUnit">
                         <h5 class="mb-2">Unit {{ selectedUnit.Unit }}</h5>
-						<iframe [cachedSrc]="selectedUnit.Part2.Src" width="324" height="150"></iframe>
+                        <audio #audioPlayerPart2 controls class="mb-2">
+                            <source [src]="selectedUnit.Part2.Src" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
 
                         <form *ngIf="!practiceData[selectedUnit.Unit - 1].showResults" class="flex flex-column mb-2">
                             <div *ngFor="let quiz of selectedUnit.Part2.Quiz; let i = index"
@@ -63,8 +67,10 @@
                 </div>
                 <div class="col-12">
                     <h5 class="mb-2">Final test</h5>
-					<iframe [cachedSrc]="unitData.Test.Src2" width="324" height="150"></iframe>
-                    
+                    <audio controls class="mb-2">
+                        <source [src]="unitData.Test.Src2" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
                     <form *ngIf="!testData.showResults" class="flex flex-column mb-2">
                         <div *ngFor="let quiz of unitData.Test.Quiz; let i = index"
                             class="flex justify-content-between">
@@ -115,30 +121,44 @@
                 <div class="col-12">
                     <label>Chọn bài: </label>
                     <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnitPart3" optionLabel="Unit"
+                    (onChange)="onUnitChange(3)"
                         placeholder="Chọn bài" />
                     <div *ngIf="selectedUnitPart3">
                         <h5 class="mb-2">Unit {{ selectedUnitPart3.Unit }}</h5>
-						<iframe [cachedSrc]="selectedUnitPart3.Part3.Src" width="324" height="150"></iframe>
+                        <audio #audioPlayerPart3 controls class="mb-2">
+                            <source [src]="selectedUnitPart3.Part3.Src" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
                     </div>
                 </div>
                 <div class="col-12">
                     <h5 class="mb-2">Final test</h5>
-					<iframe [cachedSrc]="unitData.Test.Src3" width="324" height="150"></iframe>
+                    <audio controls class="mb-2">
+                        <source [src]="unitData.Test.Src3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
                 </div>
             </p-accordionTab>
             <p-accordionTab header="Phần 4">
                 <div class="col-12">
                     <label>Chọn bài: </label>
                     <p-dropdown [options]="unitData.Units" [(ngModel)]="selectedUnitPart4" optionLabel="Unit"
+                        (onChange)="onUnitChange(4)"
                         placeholder="Chọn bài" />
                     <div *ngIf="selectedUnitPart4">
                         <h5 class="mb-2">Unit {{ selectedUnitPart4.Unit }}</h5>
-						<iframe [cachedSrc]="selectedUnitPart4.Part4.Src" width="324" height="150"></iframe>
+                        <audio #audioPlayerPart4 controls class="mb-2">
+                            <source [src]="selectedUnitPart4.Part4.Src" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio>
                     </div>
                 </div>
                 <div class="col-12">
                     <h5 class="mb-2">Final test</h5>
-					<iframe [cachedSrc]="unitData.Test.Src4" width="324" height="150"></iframe>
+                    <audio controls class="mb-2">
+                        <source [src]="unitData.Test.Src4" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
                 </div>
             </p-accordionTab>
         </p-accordion>

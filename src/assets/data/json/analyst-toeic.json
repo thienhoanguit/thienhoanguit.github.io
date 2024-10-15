@@ -1,0 +1,657 @@
+{
+    "BookName": "Analyst Toeic",
+    "Units": [
+        {
+            "Unit": 1,
+            "Part2": {
+                "Src": "assets/analyst-toeic/06 6.wma",
+                "Quiz": [
+                    {
+                        "Question": "Whom did you get that message from?",
+                        "Answers": [
+                            "The manager of the payroll department.",
+                            "Yesterday, we talked about it.",
+                            "John didn't know about the message."
+                        ],
+                        "CorrectAnswer": "The manager of the payroll department."
+                    },
+                    {
+                        "Question": "Whose jacket is that?",
+                        "Answers": [
+                            "It was made in China.",
+                            "It's made of cotton.",
+                            "It's mine."
+                        ],
+                        "CorrectAnswer": "It's mine."
+                    },
+                    {
+                        "Question": "Who didn't attend the meeting yesterday?",
+                        "Answers": [
+                            "John forgot about the meeting.",
+                            "It finished late.",
+                            "The personnel manager."
+                        ],
+                        "CorrectAnswer": "The personnel manager."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 2,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1foEBJ6TUuFOQkjkHJ97FbgxcD4qtmrK0/preview",
+                "Quiz": [
+                    {
+                        "Question": "When did you get up this morning?",
+                        "Answers": [
+                            "At dawn.",
+                            "Yes, I got up early this morning.",
+                            "Because of a loud noise."
+                        ],
+                        "CorrectAnswer": "At dawn."
+                    },
+                    {
+                        "Question": "When do you think you can finish the report?",
+                        "Answers": [
+                            "I didn't think it was difficult.",
+                            "It will be done by the third.",
+                            "I'm looking forward to it."
+                        ],
+                        "CorrectAnswer": "It will be done by the third."
+                    },
+                    {
+                        "Question": "When are you visiting the Hong Kong branch?",
+                        "Answers": [
+                            "I'm going in a few days.",
+                            "Yes, I am visiting it soon.",
+                            "I didn't go to Hong Kong this time."
+                        ],
+                        "CorrectAnswer": "I'm going in a few days."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 3,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1IWe6zTbiLwBSs2TwBFEwHsbNa1Bu28xh/preview",
+                "Quiz": [
+                    {
+                        "Question": "Where is a shoe store near here?",
+                        "Answers": [
+                            "Leather shoes last longer.",
+                            "The shop has a large selection of shoes.",
+                            "Down the street, past the church."
+                        ],
+                        "CorrectAnswer": "Down the street, past the church."
+                    },
+                    {
+                        "Question": "Where's your new office?",
+                        "Answers": [
+                            "I'm in the cafeteria.",
+                            "On the fourth floor.",
+                            "It's too big."
+                        ],
+                        "CorrectAnswer": "On the fourth floor."
+                    },
+                    {
+                        "Question": "Where do you usually buy your coffee?",
+                        "Answers": [
+                            "It's rather expensive these days.",
+                            "At a little store next to the supermarket.",
+                            "I don't drink coffee at work."
+                        ],
+                        "CorrectAnswer": "At a little store next to the supermarket."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 4,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1jGFbUS0ItDBoxClqDd6ikaOpyYGDVbrs/preview",
+                "Quiz": [
+                    {
+                        "Question": "What time does the movie start?",
+                        "Answers": [
+                            "It will last about two hours.",
+                            "There is no theater here.",
+                            "I don't know. Let's look at the timetable."
+                        ],
+                        "CorrectAnswer": "I don't know. Let's look at the timetable."
+                    },
+                    {
+                        "Question": "What does your sister do?",
+                        "Answers": [
+                            "He works at a bank.",
+                            "She's a salesperson.",
+                            "She can help you any time you want."
+                        ],
+                        "CorrectAnswer": "She's a salesperson."
+                    },
+                    {
+                        "Question": "What are you going to tell Mr. Runfeld when he calls?",
+                        "Answers": [
+                            "He is going to call this afternoon.",
+                            "I'll think of something to say, so don't worry.",
+                            "I couldn't answer the phone."
+                        ],
+                        "CorrectAnswer": "I'll think of something to say, so don't worry."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 5,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1C50pJmc6h8woCB2XENqCED5b3qagzPHn/preview",
+                "Quiz": [
+                    {
+                        "Question": "How would you like your coffee?",
+                        "Answers": [
+                            "No sugar, please.",
+                            "Yes, I would like coffee.",
+                            "I prefer coffee to tea."
+                        ],
+                        "CorrectAnswer": "No sugar, please."
+                    },
+                    {
+                        "Question": "How long have you been here?",
+                        "Answers": [
+                            "About three and a half years.",
+                            "It took three hours by bus.",
+                            "I'm fine. How about you?"
+                        ],
+                        "CorrectAnswer": "About three and a half years."
+                    },
+                    {
+                        "Question": "How long does it take to get to the town center from here?",
+                        "Answers": [
+                            "There's a bus every thirty minutes.",
+                            "No more than 20 minutes, if the traffic is light.",
+                            "I'm driving to the town center tonight."
+                        ],
+                        "CorrectAnswer": "No more than 20 minutes, if the traffic is light."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 6,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1hRMjle0tM8NEmicM0UW2uvr1aEgm-4Tf/preview",
+                "Quiz": [
+                    {
+                        "Question": "Why do you think he didn't support our plan?",
+                        "Answers": [
+                            "I don't think so at all.",
+                            "He seems to dislike any new ideas.",
+                            "You're right about that."
+                        ],
+                        "CorrectAnswer": "He seems to dislike any new ideas."
+                    },
+                    {
+                        "Question": "Why was he late for school?",
+                        "Answers": [
+                            "It's not my fault.",
+                            "I think he took the wrong bus.",
+                            "School finished at 5:00."
+                        ],
+                        "CorrectAnswer": "I think he took the wrong bus."
+                    },
+                    {
+                        "Question": "Why didn't you tell me that he had resigned?",
+                        "Answers": [
+                            "I thought that you already knew.",
+                            "Yes, he resigned yesterday.",
+                            "Because it's a hot day."
+                        ],
+                        "CorrectAnswer": "Yes, he resigned yesterday."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 7,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1Uk2wqqAIE6dzcG-fF7R98FA8EFaeKPhK/preview",
+                "Quiz": [
+                    {
+                        "Question": "Didn't you go to the book fair?",
+                        "Answers": [
+                            "Sure, if you want to.",
+                            "I did, but I didn't stay long.",
+                            "Yes, I didn't."
+                        ],
+                        "CorrectAnswer": "I did, but I didn't stay long."
+                    },
+                    {
+                        "Question": "Are you going to attend the conference?",
+                        "Answers": [
+                            "I guess so.",
+                            "We were too late.",
+                            "From the 2nd to the 5th."
+                        ],
+                        "CorrectAnswer": "From the 2nd to the 5th."
+                    },
+                    {
+                        "Question": "Could you show me how this fax machine works?",
+                        "Answers": [
+                            "It is a new fax machine.",
+                            "Of course. It's very simple.",
+                            "Has the fax already been sent?"
+                        ],
+                        "CorrectAnswer": "Of course. It's very simple."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 8,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/1IghdalAPniDZCRoXUVoXugQhXQNmTZ9c/preview",
+                "Quiz": [
+                    {
+                        "Question": "Are you going to buy a new computer or just continue using the old one?",
+                        "Answers": [
+                            "Neither. I'm going to lease one.",
+                            "Yes, I'd like one, thank you.",
+                            "That's impossible. I can't afford a new one."
+                        ],
+                        "CorrectAnswer": "Neither. I'm going to lease one."
+                    },
+                    {
+                        "Question": "Which do you prefer, the yellow T-shirt or the blue one?",
+                        "Answers": [
+                            "Yes, I like the blue one.",
+                            "Neither.",
+                            "Both of them are very cheap."
+                        ],
+                        "CorrectAnswer": "Yes, I like the blue one."
+                    },
+                    {
+                        "Question": "Is Joseph or Manuel going to present the proposal?",
+                        "Answers": [
+                            "Yes, they are going to make the presentation.",
+                            "Manuel said he would do it.",
+                            "Well, I'd like to, but I'm busy."
+                        ],
+                        "CorrectAnswer": "Yes, they are going to make the presentation."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 9,
+            "Part2": {
+                "Src": "https://drive.google.com/file/d/13NVC73M0riamAnEK7TQPctcq2GCmzW3h/preview",
+                "Quiz": [
+                    {
+                        "Question": "I've put the accounting files on your desk.",
+                        "Answers": [
+                            "Thanks. I'll look at them later.",
+                            "I haven't phoned yet.",
+                            "It's going to be difficult to finish."
+                        ],
+                        "CorrectAnswer": "Thanks. I'll look at them later."
+                    },
+                    {
+                        "Question": "Thank you for taking the time to come here in person.",
+                        "Answers": [
+                            "There are many people in this branch.",
+                            "Don't mention it. It's my pleasure.",
+                            "What do you feel like eating?"
+                        ],
+                        "CorrectAnswer": "Don't mention it. It's my pleasure."
+                    },
+                    {
+                        "Question": "I've arranged the meeting for three o'clock on Thursday.",
+                        "Answers": [
+                            "I don't enjoy meetings.",
+                            "I have had a lot of phone calls today.",
+                            "Good, I'll mark it on my planner."
+                        ],
+                        "CorrectAnswer": "Good, I'll mark it on my planner."
+                    }
+                ]
+            }
+        },
+        {
+            "Unit": 10,
+            "Part2": {
+                "Src": "",
+                "Quiz": [
+                    {
+                        "Question": "How long has he been gone?",
+                        "Answers": [
+                            "Until tomorrow.",
+                            "For half an hour.",
+                            "Next week."
+                        ],
+                        "CorrectAnswer": "For half an hour."
+                    },
+                    {
+                        "Question": "I'm afraid I can't hear you.",
+                        "Answers": [
+                            "I'm sorry. I'll speak louder.",
+                            "Yes, I can come up now.",
+                            "I really can't say."
+                        ],
+                        "CorrectAnswer": "I'm sorry. I'll speak louder."
+                    },
+                    {
+                        "Question": "Would you like to go now?",
+                        "Answers": [
+                            "In a few minutes.",
+                            "I go there every day.",
+                            "I usually go by taxi."
+                        ],
+                        "CorrectAnswer": "In a few minutes."
+                    },
+                    {
+                        "Question": "How often do they update the computers?",
+                        "Answers": [
+                            "Yes, they often do.",
+                            "Two or three times a year.",
+                            "About one or two weeks."
+                        ],
+                        "CorrectAnswer": "Two or three times a year."
+                    },
+                    {
+                        "Question": "Why did you turn the air conditioner on?",
+                        "Answers": [
+                            "It isn't working very well.",
+                            "It's in good condition.",
+                            "It's a little warm in here."
+                        ],
+                        "CorrectAnswer": "It's a little warm in here."
+                    },
+                    {
+                        "Question": "Didn't you used to work at Macy's with Sarah Davis?",
+                        "Answers": [
+                            "When do we begin work?",
+                            "Yes, that's right.",
+                            "I certainly do."
+                        ],
+                        "CorrectAnswer": "Yes, that's right."
+                    },
+                    {
+                        "Question": "Who is responsible for this?",
+                        "Answers": [
+                            "I don't have it.",
+                            "I believe Susan is.",
+                            "No, I'm not."
+                        ],
+                        "CorrectAnswer": "I believe Susan is."
+                    },
+                    {
+                        "Question": "I have a bit of a cold.",
+                        "Answers": [
+                            "It's nearly spring.",
+                            "You should take it easy.",
+                            "That's a wonderful idea."
+                        ],
+                        "CorrectAnswer": "You should take it easy."
+                    },
+                    {
+                        "Question": "Whose briefcase is this?",
+                        "Answers": [
+                            "It's my boss's.",
+                            "They're probably lost.",
+                            "His luggage is full."
+                        ],
+                        "CorrectAnswer": "It's my boss's."
+                    },
+                    {
+                        "Question": "Would you like tea or coffee?",
+                        "Answers": [
+                            "It's fine, thanks.",
+                            "Yes, please.",
+                            "Coffee would be nice."
+                        ],
+                        "CorrectAnswer": "Coffee would be nice."
+                    },
+                    {
+                        "Question": "How many stories tall is that building?",
+                        "Answers": [
+                            "About thirty-five.",
+                            "I read it already.",
+                            "Yes, it's quite high."
+                        ],
+                        "CorrectAnswer": "About thirty-five."
+                    },
+                    {
+                        "Question": "Did he fill out the form completely?",
+                        "Answers": [
+                            "He forgot to sign and date it.",
+                            "Once in a while it loses its shape.",
+                            "Could I borrow your pen?"
+                        ],
+                        "CorrectAnswer": "He forgot to sign and date it."
+                    },
+                    {
+                        "Question": "If you don't answer the letter, who will?",
+                        "Answers": [
+                            "My assistant will.",
+                            "Because I don't want to.",
+                            "The answer is wrong."
+                        ],
+                        "CorrectAnswer": "My assistant will."
+                    },
+                    {
+                        "Question": "When does the sale finish?",
+                        "Answers": [
+                            "Yes, it has finished.",
+                            "Office equipment is on sale.",
+                            "It runs until next Friday."
+                        ],
+                        "CorrectAnswer": "It runs until next Friday."
+                    },
+                    {
+                        "Question": "Could you open these desk drawers for me?",
+                        "Answers": [
+                            "I can't. They're stuck.",
+                            "Sure, you can close them.",
+                            "It opens at four o'clock."
+                        ],
+                        "CorrectAnswer": "I can't. They're stuck."
+                    },
+                    {
+                        "Question": "When does your subscription expire?",
+                        "Answers": [
+                            "In March.",
+                            "For one year.",
+                            "Twice a week."
+                        ],
+                        "CorrectAnswer": "In March."
+                    },
+                    {
+                        "Question": "When do you want to discuss my memo?",
+                        "Answers": [
+                            "No, but I'll finish it by tomorrow.",
+                            "I need to write several more pages.",
+                            "How about this afternoon?"
+                        ],
+                        "CorrectAnswer": "How about this afternoon?"
+                    },
+                    {
+                        "Question": "Where is Brian Ivan's desk?",
+                        "Answers": [
+                            "It's at seven-fifty.",
+                            "It's over there, by the window.",
+                            "Certainly, just a moment."
+                        ],
+                        "CorrectAnswer": "It's over there, by the window."
+                    }
+                ]
+            }
+        }
+    ],
+    "Test": {
+        "Src2": "https://drive.google.com/file/d/118TPp15HLfQ0g1CTjB8OeQypibTTByJY/preview",
+        "Quiz": [
+            {
+                "Question": "How long has he been gone?",
+                "Answers": [
+                    "Until tomorrow.",
+                    "For half an hour.",
+                    "Next week."
+                ],
+                "CorrectAnswer": "For half an hour."
+            },
+            {
+                "Question": "I'm afraid I can't hear you.",
+                "Answers": [
+                    "I'm sorry. I'll speak louder.",
+                    "Yes, I can come up now.",
+                    "I really can't say."
+                ],
+                "CorrectAnswer": "I'm sorry. I'll speak louder."
+            },
+            {
+                "Question": "Would you like to go now?",
+                "Answers": [
+                    "In a few minutes.",
+                    "I go there every day.",
+                    "I usually go by taxi."
+                ],
+                "CorrectAnswer": "In a few minutes."
+            },
+            {
+                "Question": "How often do they update the computers?",
+                "Answers": [
+                    "Yes, they often do.",
+                    "Two or three times a year.",
+                    "About one or two weeks."
+                ],
+                "CorrectAnswer": "Two or three times a year."
+            },
+            {
+                "Question": "Why did you turn the air conditioner on?",
+                "Answers": [
+                    "It isn't working very well.",
+                    "It's in good condition.",
+                    "It's a little warm in here."
+                ],
+                "CorrectAnswer": "It's a little warm in here."
+            },
+            {
+                "Question": "Didn't you used to work at Macy's with Sarah Davis?",
+                "Answers": [
+                    "When do we begin work?",
+                    "Yes, that's right.",
+                    "I certainly do."
+                ],
+                "CorrectAnswer": "Yes, that's right."
+            },
+            {
+                "Question": "Who is responsible for this?",
+                "Answers": [
+                    "I don't have it.",
+                    "I believe Susan is.",
+                    "No, I'm not."
+                ],
+                "CorrectAnswer": "I believe Susan is."
+            },
+            {
+                "Question": "I have a bit of a cold.",
+                "Answers": [
+                    "It's nearly spring.",
+                    "You should take it easy.",
+                    "That's a wonderful idea."
+                ],
+                "CorrectAnswer": "You should take it easy."
+            },
+            {
+                "Question": "Whose briefcase is this?",
+                "Answers": [
+                    "It's my boss's.",
+                    "They're probably lost.",
+                    "His luggage is full."
+                ],
+                "CorrectAnswer": "It's my boss's."
+            },
+            {
+                "Question": "Would you like tea or coffee?",
+                "Answers": [
+                    "It's fine, thanks.",
+                    "Yes, please.",
+                    "Coffee would be nice."
+                ],
+                "CorrectAnswer": "Coffee would be nice."
+            },
+            {
+                "Question": "How many stories tall is that building?",
+                "Answers": [
+                    "About thirty-five.",
+                    "I read it already.",
+                    "Yes, it's quite high."
+                ],
+                "CorrectAnswer": "About thirty-five."
+            },
+            {
+                "Question": "Did he fill out the form completely?",
+                "Answers": [
+                    "He forgot to sign and date it.",
+                    "Once in a while it loses its shape.",
+                    "Could I borrow your pen?"
+                ],
+                "CorrectAnswer": "He forgot to sign and date it."
+            },
+            {
+                "Question": "If you don't answer the letter, who will?",
+                "Answers": [
+                    "My assistant will.",
+                    "Because I don't want to.",
+                    "The answer is wrong."
+                ],
+                "CorrectAnswer": "My assistant will."
+            },
+            {
+                "Question": "When does the sale finish?",
+                "Answers": [
+                    "Yes, it has finished.",
+                    "Office equipment is on sale.",
+                    "It runs until next Friday."
+                ],
+                "CorrectAnswer": "It runs until next Friday."
+            },
+            {
+                "Question": "Could you open these desk drawers for me?",
+                "Answers": [
+                    "I can't. They're stuck.",
+                    "Sure, you can close them.",
+                    "It opens at four o'clock."
+                ],
+                "CorrectAnswer": "I can't. They're stuck."
+            },
+            {
+                "Question": "When does your subscription expire?",
+                "Answers": [
+                    "In March.",
+                    "For one year.",
+                    "Twice a week."
+                ],
+                "CorrectAnswer": "In March."
+            },
+            {
+                "Question": "When do you want to discuss my memo?",
+                "Answers": [
+                    "No, but I'll finish it by tomorrow.",
+                    "I need to write several more pages.",
+                    "How about this afternoon?"
+                ],
+                "CorrectAnswer": "How about this afternoon?"
+            },
+            {
+                "Question": "Where is Brian Ivan's desk?",
+                "Answers": [
+                    "It's at seven-fifty.",
+                    "It's over there, by the window.",
+                    "Certainly, just a moment."
+                ],
+                "CorrectAnswer": "It's over there, by the window."
+            }
+        ]
+    }
+}
