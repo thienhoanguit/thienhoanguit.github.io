@@ -74,7 +74,7 @@
                     <form *ngIf="!testData.showResults" class="flex flex-column mb-2">
                         <div *ngFor="let quiz of unitData.Test.Quiz; let i = index"
                             class="flex justify-content-between mb-3">
-                            <span>{{ i + 1 }}.</span>
+                            <span>{{ i + 11 }}.</span>
                             <label>
                                 <input type="radio" [(ngModel)]="testData.userAnswers[i]"
                                     [value]="quiz.Answers[0]" name="question{{i}}" />
@@ -95,7 +95,7 @@
                     </form>
                     <div *ngIf="testData.showResults" class="mb-2">
                         <div *ngFor="let quiz of unitData.Test.Quiz; let i = index">
-                            <p>{{ i + 1 }}. {{ quiz.Question }}</p>
+                            <p>{{ i + 11 }}. {{ quiz.Question }}</p>
                             <p>
                                 <span *ngFor="let answer of quiz.Answers; let j = index">
                                     <span [ngStyle]="{
