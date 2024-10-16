@@ -4,6 +4,8 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { AuthService } from '../../shared/auth/auth.service';
 import { Router } from '@angular/router';
 import { NotifyService } from '../../shared/notify/notify.service';
+import { User } from '../../shared/user/user.model';
+import { UserRepository } from '../../shared/user/user-repository';
 
 @Component({
   selector: 'app-publish',
@@ -16,7 +18,8 @@ export class PublishComponent {
   constructor(
 		private readonly authService: AuthService,
 		private readonly router: Router,
-		private readonly _notifyService: NotifyService,) {
+		private readonly _notifyService: NotifyService,
+		private readonly _userRepo: UserRepository) {
       this.items = [
         {
           label: 'Home',
@@ -34,14 +37,13 @@ export class PublishComponent {
     		const token = credential?.accessToken;
     		// The signed-in user info.
     		const user = result.user;
-			let res = await this.authService.login({
-				photoURL: user.photoURL ?? '',
-				displayName: user.displayName ?? '',
-				email: user.email ?? '',
-				isActive: false,
-				role: ['user'],
-				id: ''
-			}, {
+			let u = new User(user.displayName ?? '', 
+				user.email ?? '',
+				user.photoURL ?? '',
+				['user'],
+				false
+				);
+			let res = await this.authService.login(u, {
 				accessToken: credential?.accessToken ?? '',
 				idToken: credential?.idToken ?? ''
 			});
@@ -63,4 +65,5 @@ export class PublishComponent {
     		const credential = GoogleAuthProvider.credentialFromError(error);
   		});
 	  }
+
 }

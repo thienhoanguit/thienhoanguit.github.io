@@ -5,12 +5,7 @@ import { PublishComponent } from './publish.component';
 const routes: Routes = [{
 	path: '',
 	component: PublishComponent,
-	children: [
-		{
-			path: 'login',
-			loadChildren: () => import('./login/login.module').then((m) => m.LoginModule),
-		}
-	]
+	
 }];
 
 @NgModule({

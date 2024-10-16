@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
-import { User } from './user.model';
+import { BehaviorSubject, firstValueFrom } from 'rxjs';
+import { User } from '../user/user.model';
 import { Credential } from './credential.model';
 import { LoginResponse } from './login-response.model';
 import { Database, get, ref, set } from '@angular/fire/database';
 import { Router } from '@angular/router';
 import { GoogleAuthProvider, getAuth, signOut } from 'firebase/auth';
 import { FirestoreService } from '../firebase-db/firestore.service';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { UserRepository } from '../user/user-repository';
 
 @Injectable({
   providedIn: 'root',
@@ -31,7 +33,9 @@ export class AuthService {
   }
 
   constructor(
-    private readonly _firestoreService: FirestoreService
+    protected firestore: AngularFirestore, 
+    private readonly _firestoreService: FirestoreService,
+    private readonly userRepo: UserRepository
     ) {  
     try {
       const user = JSON.parse(String(localStorage.getItem('user')));
@@ -48,12 +52,17 @@ export class AuthService {
   public async login(user: User, credential: Credential) : Promise<LoginResponse> {
     
     //checkuser
-    let exist = await this._firestoreService.filterDocumentByField(this.userColName, 'email', user.email.toLocaleLowerCase());// this.users.find(_ => _.email == user.email);
+    // let exist = await this._firestoreService.filterDocumentByField(this.userColName, 'email', user.email.toLocaleLowerCase());// this.users.find(_ => _.email == user.email);
+    let exist = await firstValueFrom(this.userRepo.queryFirst(_ => _.where('email', '==', user.email.toLocaleLowerCase())));
     console.log('Exsist: ', exist);
     if (!exist || !exist.isActive) {
       if (!exist) {
         user.email = user.email.toLocaleLowerCase();
-        await this._firestoreService.addDocument(this.userColName, user);
+        // user.createdAt = new Date();
+        // user.id = this.firestore.createId();
+        console.log('user: ', user);
+        this.userRepo.add(user);
+        // await this._firestoreService.addDocument(this.userColName, user);
       }
       return {status: false, message: 'Bạn đã đăng ký tài khoản, vui lòng đợi quản trị viên duyệt'};
     } else {

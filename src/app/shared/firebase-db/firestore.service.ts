@@ -51,12 +51,13 @@ export class FirestoreService {
     const querySnapshot = await getDocs(q);
     // Chỉ trả về đối tượng đầu tiên (nếu tồn tại)
     if (querySnapshot.docs.length > 0) {
-      let d = querySnapshot.docs[0];
-      let data = d.data();
-      data['id'] = d.id;
-      console.log('d: ', d);
-      console.log('data: ', data);
-      return data;
+      return querySnapshot.docs[0].data();
+      // let d = querySnapshot.docs[0];
+      // let data = d.data();
+      // data['id'] = d.id;
+      // console.log('d: ', d);
+      // console.log('data: ', data);
+      // return data;
     } else {
       return null; // Nếu không tìm thấy đối tượng
     }

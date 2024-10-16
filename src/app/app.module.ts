@@ -10,6 +10,8 @@ import { ENV } from '../environments/environment';
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { getAuth, provideAuth } from '@angular/fire/auth';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
@@ -18,7 +20,10 @@ const PRIME_MODULES = [ToastModule];
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, PRIME_MODULES],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule,
+    AngularFireModule.initializeApp(ENV.firebaseConfig),
+    AngularFirestoreModule,
+     ...PRIME_MODULES],
   providers: [provideHttpClient(withInterceptorsFromDi()),
     // Cấu hình Firebase App
     provideFirebaseApp(() => initializeApp(ENV.firebaseConfig)),

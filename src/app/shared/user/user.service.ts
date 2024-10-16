@@ -1,18 +1,15 @@
 import { Injectable } from '@angular/core';
 import { FirestoreService } from '../firebase-db/firestore.service';
+import { UserRepository } from './user-repository';
+import { User } from './user.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-    private colName: string = 'users';
-    constructor(private _firestoreService: FirestoreService) { }
+    constructor(private _userRepository: UserRepository) { }
 
-    public getUsers() {
-		return this._firestoreService.getAllDocuments(this.colName);
-    }
-
-	public activeUser(id: string, data: boolean) {
-		return this._firestoreService.updateDocument(this.colName, id, {isActive:  data});
+	public activeUser(id: string, data: User) {
+		return this._userRepository.update(id, data);
 	}
 }
